@@ -9,16 +9,26 @@ class DemoListas:
     
     def crear_lista(self, lista):
         if (type(lista) == list):
-            self.lista = lista
+            if len(lista) == 0:
+                self.lista = [self.hall, self.kit, self.liv, self.bed, self.bath]
+            else:
+                self.lista = lista
         else:
             self.lista = [self.hall, self.kit, self.liv, self.bed, self.bath]
          
         return self.lista
     
-    
+
     
     def imprimir_lista(self, lista):
         for i in lista:
             print(i)
 
+
+    def obtener_elemento(self, lista, index):
+        return lista[index]
+
+
+    def obtener_sublista(self, lista, begin_index, end_index):
+        return lista[begin_index:end_index]
   

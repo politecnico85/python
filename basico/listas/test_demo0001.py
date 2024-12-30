@@ -22,6 +22,7 @@ class TestDemoListas(unittest.TestCase):
 
     def test_create_list(self):
         created_list = self.demo_listas.crear_lista(None)
+        print(created_list)
         expected_list = [11.25, 18.0, 20.0, 10.75, 9.50]
         self.assertEqual(created_list, expected_list)
 
