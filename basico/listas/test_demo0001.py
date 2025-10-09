@@ -11,6 +11,13 @@ class TestDemoListas(unittest.TestCase):
         expected_list = [11.25, 18.0, 20.0, 10.75, 9.50]
         self.assertEqual(created_list, expected_list)
 
+    def test_modificar_lista(self):
+        lista = [20.5, 31, 8, 5, 65]
+        modified_list = self.demo_listas.modificar_lista(lista, 1, 3, [1, 2, 3])
+        expected_list = [20.5, 1, 2, 3, 5, 65]
+        self.assertEqual(modified_list, expected_list)  
+        
+
     def test_imprimir_lista(self):
         lista = [20.5, 31, 8, 5, 6]
         self.demo_listas.crear_lista(lista)

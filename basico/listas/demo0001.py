@@ -19,6 +19,11 @@ class DemoListas:
         return self.lista
     
 
+    def modificar_lista(self, lista, desde, hasta, values):
+        if len(lista) < desde - 1:
+            return lista
+        lista[desde, hasta] = values
+        return lista
     
     def imprimir_lista(self, lista):
         for i in lista:
