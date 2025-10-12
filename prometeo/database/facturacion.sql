@@ -218,9 +218,9 @@ CREATE TABLE MovimientosInventario (
     fecha_movimiento DATETIME NOT NULL,
     stock_post_movimiento INT NOT NULL,
     FOREIGN KEY (id_producto) REFERENCES Productos(id_producto) ON DELETE RESTRICT,
-    FOREIGN KEY (id_b ODEga) REFERENCES Bodegas(id_bodega) ON DELETE RESTRICT,
+    FOREIGN KEY (id_bodega) REFERENCES Bodegas(id_bodega) ON DELETE RESTRICT,
     FOREIGN KEY (id_factura) REFERENCES Factura(id_factura) ON DELETE SET NULL,
-    FOREIGN KEY (id_orden_compra) REFERENCES OrdenesCompra(id_orden_compra) ON DELETE SET NULL
+    FOREIGN KEY (id_orden_compra) REFERENCES OrdenesCompra(id_orden_compra) ON DELETE SET NULL,
     FOREIGN KEY (id_lote) REFERENCES Lotes(id_lote) ON DELETE SET NULL;
 
 );
