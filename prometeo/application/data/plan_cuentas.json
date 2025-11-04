@@ -1,0 +1,5708 @@
+[
+  {
+    "account_id": 10000,
+    "parent_id": "",
+    "code": 1,
+    "name": "Activos",
+    "description": "",
+    "type": "Asset",
+    "nivel": 1
+  },
+  {
+    "account_id": 10010,
+    "parent_id": 10000,
+    "code": 1.1,
+    "name": "Activo Corriente",
+    "description": "",
+    "type": "Asset",
+    "nivel": 2
+  },
+  {
+    "account_id": 10020,
+    "parent_id": 10010,
+    "code": "1.1.1",
+    "name": "Efectivo y Equivalentes a Efectivo",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 10030,
+    "parent_id": 10020,
+    "code": "1.1.1.1",
+    "name": "Caja",
+    "description": "Caja",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10040,
+    "parent_id": 10020,
+    "code": "1.1.1.2",
+    "name": "Caja Chica",
+    "description": "Caja Chica",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10050,
+    "parent_id": 10020,
+    "code": "1.1.1.3",
+    "name": "Bancos",
+    "description": "Banco",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10060,
+    "parent_id": 10050,
+    "code": "1.1.1.3.1",
+    "name": "BOLIVARIANO",
+    "description": "Banco",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10070,
+    "parent_id": 10050,
+    "code": "1.1.1.3.2",
+    "name": "PACIFICO",
+    "description": "Banco",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10080,
+    "parent_id": 10050,
+    "code": "1.1.1.3.3",
+    "name": "PICHINCHA",
+    "description": "Banco",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10090,
+    "parent_id": 10050,
+    "code": "1.1.1.3.4",
+    "name": "Banco Comercial de Manabi",
+    "description": "Banco",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10100,
+    "parent_id": 10020,
+    "code": "1.1.1.4",
+    "name": "Banco dinero electrónico",
+    "description": "Banco dinero electrónico",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10110,
+    "parent_id": 10020,
+    "code": "1.1.1.5",
+    "name": "Transferencias Interbancarias",
+    "description": "Banco",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10120,
+    "parent_id": 10010,
+    "code": "1.1.2",
+    "name": "Activos Financieros",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 10130,
+    "parent_id": 10120,
+    "code": "1.1.2.1",
+    "name": "Activos Financieros con cambios en resultados",
+    "description": "Activos Financieros con Cambios en Resultados",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10140,
+    "parent_id": 10120,
+    "code": "1.1.2.2",
+    "name": "Activos Financieros Disponibles para la Venta",
+    "description": "Activos Financieros disponibles para la Venta",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10150,
+    "parent_id": 10120,
+    "code": "1.1.2.3",
+    "name": "Activos Financieros mantenidos hasta el vencimiento",
+    "description": "Activos Financieros mantenidos hasta el Vencimiento",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10160,
+    "parent_id": 10120,
+    "code": "1.1.2.4",
+    "name": "(-) Provisión por Deterioro",
+    "description": "(-) Provisión por Deterioro",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10170,
+    "parent_id": 10120,
+    "code": "1.1.2.5",
+    "name": "Cuentas por Cobrar",
+    "description": "",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10180,
+    "parent_id": 10170,
+    "code": "1.1.2.5.1",
+    "name": "Clientes Comerciales.",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10190,
+    "parent_id": 10170,
+    "code": "1.1.2.5.2",
+    "name": "Diprofonía",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10200,
+    "parent_id": 10170,
+    "code": "1.1.2.5.3",
+    "name": "Blumod SA",
+    "description": "Cuenta por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10210,
+    "parent_id": 10170,
+    "code": "1.1.2.5.4",
+    "name": "Pasdarcar",
+    "description": "Cuenta por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10220,
+    "parent_id": 10170,
+    "code": "1.1.2.5.5",
+    "name": "Fid Bosques los Ceibos",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10230,
+    "parent_id": 10170,
+    "code": "1.1.2.5.6",
+    "name": "Corpvis",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10240,
+    "parent_id": 10170,
+    "code": "1.1.2.5.7",
+    "name": "Timec SA",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10250,
+    "parent_id": 10170,
+    "code": "1.1.2.5.8",
+    "name": "Preserexas",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10260,
+    "parent_id": 10170,
+    "code": "1.1.2.5.9",
+    "name": "Fid Mercantil Hotel Aereopuerto Quito",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10270,
+    "parent_id": 10170,
+    "code": "1.1.2.5.10",
+    "name": "Galostar SA",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10280,
+    "parent_id": 10170,
+    "code": "1.1.2.5.11",
+    "name": "Exporcambrit SA",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10290,
+    "parent_id": 10170,
+    "code": "1.1.2.5.12",
+    "name": "Cheques por Cobrar",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10300,
+    "parent_id": 10170,
+    "code": "1.1.2.5.13",
+    "name": "xxxxx Antes T/c",
+    "description": "Cuenta por Cobrar (Tarjetas de Crédito)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10310,
+    "parent_id": 10170,
+    "code": "1.1.2.5.14",
+    "name": "Clientes Comerciales Exterior",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10320,
+    "parent_id": 10170,
+    "code": "1.1.2.5.15",
+    "name": "Socios o Accionistas",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10330,
+    "parent_id": 10170,
+    "code": "1.1.2.5.16",
+    "name": "Funcionarios y/o Empleados",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10340,
+    "parent_id": 10170,
+    "code": "1.1.2.5.17",
+    "name": "Compañías Relacionadas",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10350,
+    "parent_id": 10170,
+    "code": "1.1.2.5.18",
+    "name": "Galápagos Organic Orgal",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10360,
+    "parent_id": 10170,
+    "code": "1.1.2.5.19",
+    "name": "Fideicomiso Torres del Jardin",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10370,
+    "parent_id": 10170,
+    "code": "1.1.2.5.20",
+    "name": "Lazzate C.Ltda",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10380,
+    "parent_id": 10170,
+    "code": "1.1.2.5.21",
+    "name": "Fideicomiso San Critobal",
+    "description": "Cuenta por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10390,
+    "parent_id": 10170,
+    "code": "1.1.2.5.22",
+    "name": "Fideicomiso Hotel Aeropuerto",
+    "description": "Cuenta por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10400,
+    "parent_id": 10170,
+    "code": "1.1.2.5.23",
+    "name": "Fideicomiso Mercantil Hotel Samborondon",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10410,
+    "parent_id": 10170,
+    "code": "1.1.2.5.24",
+    "name": "Pacificcam SA",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10420,
+    "parent_id": 10170,
+    "code": "1.1.2.5.25",
+    "name": "Fidelizaciones Externas",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10430,
+    "parent_id": 10120,
+    "code": "1.1.2.6",
+    "name": "Documentos por Cobrar",
+    "description": "",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10440,
+    "parent_id": 10430,
+    "code": "1.1.2.6.1",
+    "name": "Clientes Comerciales (Documentos por Cobrar)",
+    "description": "Documento por Cobrar",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10450,
+    "parent_id": 10430,
+    "code": "1.1.2.6.2",
+    "name": "Socios o Accionistas",
+    "description": "Documento por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10460,
+    "parent_id": 10430,
+    "code": "1.1.2.6.3",
+    "name": "Funcionarios y/o Empleados",
+    "description": "Documento por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10470,
+    "parent_id": 10430,
+    "code": "1.1.2.6.4",
+    "name": "Compañías Relacionadas",
+    "description": "Documento por Cobrar Relacionadas",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10480,
+    "parent_id": 10120,
+    "code": "1.1.2.7",
+    "name": "Otras Cuentas por Cobrar",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10490,
+    "parent_id": 10120,
+    "code": "1.1.2.8",
+    "name": "Provision para Cuentas Incobrables",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10500,
+    "parent_id": 10010,
+    "code": "1.1.3",
+    "name": "Inventario",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 10510,
+    "parent_id": 10500,
+    "code": "1.1.3.1",
+    "name": "Materia Prima",
+    "description": "Materia Prima",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10520,
+    "parent_id": 10500,
+    "code": "1.1.3.2",
+    "name": "Producto en Proceso",
+    "description": "Productos en Proceso",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10530,
+    "parent_id": 10500,
+    "code": "1.1.3.3",
+    "name": "Suministros o materiales a ser consumidos en el proceso de producción",
+    "description": "Suministros o Materiales a ser Consumidos en el Proceso de Producción",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10540,
+    "parent_id": 10500,
+    "code": "1.1.3.4",
+    "name": "Suministros o materiales a ser consumidos en la prestación de servicios",
+    "description": "Suministros o Materiales a ser Consumidos en la prestación de Servicios",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10550,
+    "parent_id": 10500,
+    "code": "1.1.3.5",
+    "name": "Productos terminados y mercadería producidos por la compañía",
+    "description": "Productos terminados y mercadería producidos por la compañía",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10560,
+    "parent_id": 10500,
+    "code": "1.1.3.6",
+    "name": "Productos terminados y mercadería comprados a terceros",
+    "description": "Productos terminados y mercadería comprados a terceros",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10570,
+    "parent_id": 10500,
+    "code": "1.1.3.7",
+    "name": "Mercaderías en Transito",
+    "description": "Mercaderías en Transito",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10580,
+    "parent_id": 10500,
+    "code": "1.1.3.8",
+    "name": "Obras en Construcción",
+    "description": "Obras en Construcción",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10590,
+    "parent_id": 10500,
+    "code": "1.1.3.9",
+    "name": "Inventarios repuestos, herramientas y accesorios",
+    "description": "Inventarios, repuestos, herramientas y accesorios",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10600,
+    "parent_id": 10500,
+    "code": "1.1.3.10",
+    "name": "Otros Inventarios",
+    "description": "Otros Inventarios",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10610,
+    "parent_id": 10500,
+    "code": "1.1.3.11",
+    "name": "(-) Provisión de Inventarios por valor neto de realización",
+    "description": "(-) Provision de Inventarios por valor neto de realización",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10620,
+    "parent_id": 10500,
+    "code": "1.1.3.12",
+    "name": "(-) Provisión de Inventarios por deterioro",
+    "description": "(-) Provision de Inventarios por deterioro",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": "",
+    "parent_id": 10010,
+    "code": "1.1.4",
+    "name": "Servicios y otros Pagos Anticipados",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 10640,
+    "parent_id": 10630,
+    "code": "1.1.4.1",
+    "name": "Seguros",
+    "description": "Seguros pagados por Anticipado",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10650,
+    "parent_id": 640,
+    "code": "1.1.4.2",
+    "name": "Arriendos",
+    "description": "Arriendos Pagados por Anticipado",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10660,
+    "parent_id": 640,
+    "code": "1.1.4.3",
+    "name": "Anticipo a Proveedores",
+    "description": "Anticipo Proveedores",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10670,
+    "parent_id": 640,
+    "code": "1.1.4.4",
+    "name": "Otros Anticipos Entregados",
+    "description": "Otros Anticipos Entregados",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10680,
+    "parent_id": 640,
+    "code": "1.1.4.5",
+    "name": "Buen uso del Anticipo",
+    "description": "Anticipo Proveedores",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10690,
+    "parent_id": 640,
+    "code": "1.1.4.6",
+    "name": "PASDASCAR .- SUELDO  JASM",
+    "description": "Anticipo Proveedores",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10700,
+    "parent_id": 10010,
+    "code": "1.1.5",
+    "name": "Activos por Impuestos Corrientes",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 10710,
+    "parent_id": 10700,
+    "code": "1.1.5.1",
+    "name": "IVA sobre Compras",
+    "description": "",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10720,
+    "parent_id": 10710,
+    "code": "1.1.5.1.1",
+    "name": "IVA sobre Compras",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10730,
+    "parent_id": 10700,
+    "code": "1.1.5.2",
+    "name": "Retenciones del IVA",
+    "description": "",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10740,
+    "parent_id": 10740,
+    "code": "1.1.5.2.1",
+    "name": "30% Bienes",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10750,
+    "parent_id": 10740,
+    "code": "1.1.5.2.2",
+    "name": "70% Servicios",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10760,
+    "parent_id": 10740,
+    "code": "1.1.5.2.3",
+    "name": "100% Honorarios, Arrendamientos, Personas Naturales",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10770,
+    "parent_id": 10740,
+    "code": "1.1.5.2.4",
+    "name": "100% Exportadores",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10780,
+    "parent_id": 10740,
+    "code": "1.1.5.2.5",
+    "name": "10% Bienes (Contribuyentes Especiales)",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10790,
+    "parent_id": 10740,
+    "code": "1.1.5.2.6",
+    "name": "20% Servicios (Contribuyentes Especiales)",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10800,
+    "parent_id": 10740,
+    "code": "1.1.5.2.7",
+    "name": "50% Servicios (Exportadores de Recursos Naturales No Renovables)",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10810,
+    "parent_id": 10740,
+    "code": "1.1.5.2.8",
+    "name": "100% Empresas Públicas",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10820,
+    "parent_id": 10740,
+    "code": "1.1.5.2.9",
+    "name": "100% Liquidación de Compra de Bienes y Servicios",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10830,
+    "parent_id": 10740,
+    "code": "1.1.5.2.10",
+    "name": "Retención IVA 0",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10840,
+    "parent_id": 10740,
+    "code": "1.1.5.2.11",
+    "name": "100% Contribuyentes Especiales",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10850,
+    "parent_id": 10740,
+    "code": "1.1.5.2.12",
+    "name": "100% Operadores de turismo",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10860,
+    "parent_id": 10700,
+    "code": "1.1.5.3",
+    "name": "Retenciones en la Fuente del Impuesto a la Renta",
+    "description": "",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 10870,
+    "parent_id": 10860,
+    "code": "1.1.5.3.1",
+    "name": "1% Bienes Muebles de Naturaleza Corporal",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10880,
+    "parent_id": 10860,
+    "code": "1.1.5.3.2",
+    "name": "2% Servicios",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10890,
+    "parent_id": 10860,
+    "code": "1.1.5.3.3",
+    "name": "8% Honorarios, Arrendamientos, Docencia, Deportistas",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10900,
+    "parent_id": 10860,
+    "code": "1.1.5.3.4",
+    "name": "25% Extranjeros No Residentes",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10910,
+    "parent_id": 10860,
+    "code": "1.1.5.3.5",
+    "name": "10% Hon.Profesionales y Dietas; Arriendos,Notarios y Otros",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10920,
+    "parent_id": 10860,
+    "code": "1.1.5.3.6",
+    "name": "15% Loterías, Rifas y Similares",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10930,
+    "parent_id": 10860,
+    "code": "1.1.5.3.7",
+    "name": "Otras Retenciones Aplicables al Cód.343 1%",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10940,
+    "parent_id": 10860,
+    "code": "1.1.5.3.8",
+    "name": "Servicios 2.75% (Activo)",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10950,
+    "parent_id": 10860,
+    "code": "1.1.5.3.9",
+    "name": "1.75% Bienes Muebles de Naturaleza Corporal",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10960,
+    "parent_id": 10860,
+    "code": "1.1.5.3.10",
+    "name": "1.75% Régimen Microempresas",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10970,
+    "parent_id": 10860,
+    "code": "1.1.5.3.11",
+    "name": "Retenciones en la Fuente años anteriores",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10980,
+    "parent_id": 10860,
+    "code": "1.1.5.3.12",
+    "name": "Retenciones en la Fuente año 2019",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 10990,
+    "parent_id": 10860,
+    "code": "1.1.5.3.13",
+    "name": "Retenciones en la Fuente año 2020",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11000,
+    "parent_id": 10860,
+    "code": "1.1.5.3.14",
+    "name": "Retenciones en la Fuente año 2021",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11010,
+    "parent_id": 10860,
+    "code": "1.1.5.3.15",
+    "name": "Impuesto único a ingresos provenientes de actividades agropecuarias",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11020,
+    "parent_id": 10860,
+    "code": "1.1.5.3.16",
+    "name": "Otras Autoretenciones",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11030,
+    "parent_id": 10860,
+    "code": "1.1.5.3.17",
+    "name": "Retenciones en la Fuente año 2022",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11040,
+    "parent_id": 10860,
+    "code": "1.1.5.3.18",
+    "name": "Retenciones en la Fuente año 2023",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11050,
+    "parent_id": 10860,
+    "code": "1.1.5.3.19",
+    "name": "Retenciones en la Fuente año 2024",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11060,
+    "parent_id": 10860,
+    "code": "1.1.5.3.20",
+    "name": "Retenciones en la Fuente año 2025",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11070,
+    "parent_id": 10700,
+    "code": "1.1.5.4",
+    "name": "Anticipo de Impuesto a Renta",
+    "description": "",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11080,
+    "parent_id": 11070,
+    "code": "1.1.5.4.1",
+    "name": "1era. Cuota Julio",
+    "description": "Anticipo de Impuesto a la Renta",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11090,
+    "parent_id": 11070,
+    "code": "1.1.5.4.2",
+    "name": "2da. Cuota Septiembre",
+    "description": "Anticipo de Impuesto a la Renta",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11100,
+    "parent_id": 10700,
+    "code": "1.1.5.5",
+    "name": "Crédito Tributario",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11110,
+    "parent_id": 11110,
+    "code": "1.1.5.5.1",
+    "name": "Crédito Tributario IVA",
+    "description": "Credito Tributario a favor de la Empresa (IVA)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11120,
+    "parent_id": 11110,
+    "code": "1.1.5.5.2",
+    "name": "Crédito Tributario RENTA",
+    "description": "Credito Tributario a favor de la Empresa (IR)",
+    "type": "Asset",
+    "nivel": 5
+  },
+  {
+    "account_id": 11130,
+    "parent_id": 10010,
+    "code": "1.1.6",
+    "name": "Activos No Corrientes Mantenidos para la Venta y Op. desc.",
+    "description": "Activos No Corrientes mantenidos para la Venta y descontinuadas.",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11140,
+    "parent_id": 10010,
+    "code": "1.1.7",
+    "name": "Cuentas por Cobrar Varias",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11150,
+    "parent_id": 11140,
+    "code": "1.1.7.1",
+    "name": "Préstamo Pasdarcar",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11160,
+    "parent_id": 11140,
+    "code": "1.1.7.2",
+    "name": "Pasdarcar Varios por Cobrar",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11170,
+    "parent_id": 11140,
+    "code": "1.1.7.3",
+    "name": "Estrucplan Varios por Cobrar",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11180,
+    "parent_id": 11140,
+    "code": "1.1.7.4",
+    "name": "Estrucplan Préstamos Activo",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11190,
+    "parent_id": 11140,
+    "code": "1.1.7.5",
+    "name": "Fideicomiso Hotel San Cristobal (Diprofonia)",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11200,
+    "parent_id": 11140,
+    "code": "1.1.7.6",
+    "name": "Diprofonía Préstamo",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11210,
+    "parent_id": 11140,
+    "code": "1.1.7.7",
+    "name": "Juan Carlos Santos Oberti (otros)",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11220,
+    "parent_id": 11140,
+    "code": "1.1.7.8",
+    "name": "Tarjeta de crédito (Cobro)",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11230,
+    "parent_id": 10010,
+    "code": "1.1.8",
+    "name": "Otros Activos Corrientes",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11240,
+    "parent_id": 10010,
+    "code": "1.1.9",
+    "name": "FIDEICOMISO HOTEL AEROPUERTO",
+    "description": "Cuenta por Cobrar",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11250,
+    "parent_id": 10010,
+    "code": "1.1.10",
+    "name": "Estrucplan Rend.Pagados Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11260,
+    "parent_id": 11250,
+    "code": "1.1.10.1",
+    "name": "Clinica Rendon/Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11270,
+    "parent_id": 11250,
+    "code": "1.1.10.2",
+    "name": "Notaría FH Samborondon",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11280,
+    "parent_id": 11250,
+    "code": "1.1.10.3",
+    "name": "BanEcuador Probimanta/Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11290,
+    "parent_id": 11250,
+    "code": "1.1.10.4",
+    "name": "Holiday Inn Sto.Domingo",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11300,
+    "parent_id": 10010,
+    "code": "1.1.11",
+    "name": "Pasdarcar Rend. Pagados Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11310,
+    "parent_id": 11300,
+    "code": "1.1.11.1",
+    "name": "Vinicio Aray/Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11320,
+    "parent_id": 11300,
+    "code": "1.1.11.2",
+    "name": "Monica Molina/Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11330,
+    "parent_id": 11300,
+    "code": "1.1.11.3",
+    "name": "Hip. Faray/Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11340,
+    "parent_id": 11300,
+    "code": "1.1.11.4",
+    "name": "Enext FHSC/Pagaré",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11350,
+    "parent_id": 10010,
+    "code": "1.1.12",
+    "name": "Rendimientos Financieros (Activo)",
+    "description": "Otros Activos Corrientes",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11360,
+    "parent_id": 10010,
+    "code": "1.1.13",
+    "name": "Anticipo a Empleados",
+    "description": "Otros Anticipos Entregados",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11370,
+    "parent_id": 11360,
+    "code": "1.1.13.1",
+    "name": "Joseph Sosa",
+    "description": "Otros Anticipos Entregados",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11380,
+    "parent_id": 10000,
+    "code": 1.2,
+    "name": "Activos No Corrientes",
+    "description": "",
+    "type": "Asset",
+    "nivel": 2
+  },
+  {
+    "account_id": 11390,
+    "parent_id": 11380,
+    "code": "1.2.1",
+    "name": "Propiedad, Planta y Equipos",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11400,
+    "parent_id": 11390,
+    "code": "1.2.1.1",
+    "name": "Terrenos",
+    "description": "Terrenos",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11410,
+    "parent_id": 11390,
+    "code": "1.2.1.2",
+    "name": "Edificios",
+    "description": "Edificios",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11420,
+    "parent_id": 11390,
+    "code": "1.2.1.3",
+    "name": "Construcciones en Curso",
+    "description": "Construcciones en Curso",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11430,
+    "parent_id": 11390,
+    "code": "1.2.1.4",
+    "name": "Instalaciones",
+    "description": "Instalaciones",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11440,
+    "parent_id": 11390,
+    "code": "1.2.1.5",
+    "name": "Muebles y Enseres",
+    "description": "Muebles y Enseres",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11450,
+    "parent_id": 11390,
+    "code": "1.2.1.6",
+    "name": "Maquinarias y Equipos",
+    "description": "Maquinarias y Equipos",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11460,
+    "parent_id": 11390,
+    "code": "1.2.1.7",
+    "name": "Equipos de Computación",
+    "description": "Equipos de Computación",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11470,
+    "parent_id": 11390,
+    "code": "1.2.1.8",
+    "name": "Vehículos, equipos de transporte y equipo caminero móvil",
+    "description": "Vehiculo, equipos de transporte y equipo caminero movil",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11480,
+    "parent_id": 11390,
+    "code": "1.2.1.9",
+    "name": "Otras Propiedades, Planta y Equipo",
+    "description": "Otras Propiedades, Planta y Equipo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11490,
+    "parent_id": 11390,
+    "code": "1.2.1.10",
+    "name": "Repuestos y Herramientas",
+    "description": "Repuestos y Herramientas",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11500,
+    "parent_id": 11390,
+    "code": "1.2.1.11",
+    "name": "(-) Depreciación Acumulada Propiedades, Planta y Equipo",
+    "description": "(-) Depreciación Acumulada Propiedades, Planta  y Equipo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11510,
+    "parent_id": 11390,
+    "code": "1.2.1.12",
+    "name": "(-) Depreciación Equipos de Cómputo",
+    "description": "(-) Depreciación Acumulada Propiedades, Planta  y Equipo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11520,
+    "parent_id": 11390,
+    "code": "1.2.1.13",
+    "name": "Activos de Exploración y Explotación",
+    "description": "Activos de Exploración y Explotación",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11530,
+    "parent_id": 11390,
+    "code": "1.2.1.14",
+    "name": "Naves, Aeronaves, Barcazas y Similares",
+    "description": "Naves, Aeronaves, Barcazas y Similares",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11540,
+    "parent_id": 11380,
+    "code": "1.2.2",
+    "name": "Propiedades de Inversion",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11550,
+    "parent_id": 11540,
+    "code": "1.2.2.1",
+    "name": "Terrenos",
+    "description": "Terrenos de Inversión",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11560,
+    "parent_id": 11540,
+    "code": "1.2.2.2",
+    "name": "Edificios",
+    "description": "Edificios de Inversión",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11570,
+    "parent_id": 11540,
+    "code": "1.2.2.3",
+    "name": "(-) Depreciación Acumulada de Propiedades de Inversión",
+    "description": "(-) Deterioro Acumulado de Propiedades de Inversión",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11580,
+    "parent_id": 11540,
+    "code": "1.2.2.4",
+    "name": "(-) Deterioro Acumulado de Propiedades de Inversión",
+    "description": "(-) Deterioro Acumulado de Propiedades de Inversión",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11590,
+    "parent_id": 11380,
+    "code": "1.2.3",
+    "name": "Activos Biológicos",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11600,
+    "parent_id": 11590,
+    "code": "1.2.3.1",
+    "name": "Animales Vivos en Crecimiento",
+    "description": "Activo fijo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11610,
+    "parent_id": 11590,
+    "code": "1.2.3.2",
+    "name": "Animales Vivos en Producción",
+    "description": "Activo fijo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11620,
+    "parent_id": 11590,
+    "code": "1.2.3.3",
+    "name": "(-) Depreciación Activos Biológicos",
+    "description": "Activo fijo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11630,
+    "parent_id": 11590,
+    "code": "1.2.3.4",
+    "name": "(-) Deterioro Activos Biológicos",
+    "description": "Activo fijo",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11640,
+    "parent_id": 11380,
+    "code": "1.2.4",
+    "name": "Intangibles",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11650,
+    "parent_id": 11640,
+    "code": "1.2.4.1",
+    "name": "Plusvalías",
+    "description": "Plusvalías",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11660,
+    "parent_id": 11640,
+    "code": "1.2.4.2",
+    "name": "Marcas, Patentes, Derechos de Llave, Cuotas Patrimoniales",
+    "description": "Marcas, Patentes, Derechos de Llave, Cuotas Patrimoniales",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11670,
+    "parent_id": 11640,
+    "code": "1.2.4.3",
+    "name": "Activos de Exploración y Explotación",
+    "description": "Activos de Exploración y Explotación",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11680,
+    "parent_id": 11640,
+    "code": "1.2.4.4",
+    "name": "(-) Amortización Acumulada de Activos Intangibles",
+    "description": "(-) Amortización Acumulada de Activos Intangibles",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11690,
+    "parent_id": 11640,
+    "code": "1.2.4.5",
+    "name": "(-) Deterioro Acumulado de Activos Intangibles",
+    "description": "(-) Deterioro Acumulado de Activos Intangibles",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11700,
+    "parent_id": 11640,
+    "code": "1.2.4.6",
+    "name": "Otros Activos Intangibles",
+    "description": "Otros Activos Intangibles",
+    "type": "Asset",
+    "nivel": 4
+  },
+  {
+    "account_id": 11710,
+    "parent_id": 11640,
+    "code": "1.2.5",
+    "name": "Activos por Impuestos Diferidos",
+    "description": "Activos por Impuestos Diferidos",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11720,
+    "parent_id": 11380,
+    "code": "1.2.6",
+    "name": "Activos Financieros No Corrientes",
+    "description": "",
+    "type": "Asset",
+    "nivel": 3
+  },
+  {
+    "account_id": 11730,
+    "parent_id": 11720,
+    "code": "1.2.6.1",
+    "name": "Activos Financieros mantenidos hasta el Vencimiento No Corrientes",
+    "description": "Activos Financieros hasta el vencimiento No Corrientes",
+    "type": "Asset",
+    "nivel": ""
+  },
+  {
+    "account_id": 11740,
+    "parent_id": 11720,
+    "code": "1.2.6.2",
+    "name": "(-) Deterioro de Activos Financieros hasta el Vencimiento No Corrientes",
+    "description": "(-) Deterioro de Activos Financieros hasta el vencimiento No Corrientes",
+    "type": "Asset",
+    "nivel": ""
+  },
+  {
+    "account_id": 11750,
+    "parent_id": 11720,
+    "code": "1.2.6.3",
+    "name": "Documentos y Cuentas por Cobrar No Corrientes",
+    "description": "Documentos y Cuentas por Cobrar No Corrientes",
+    "type": "Asset",
+    "nivel": ""
+  },
+  {
+    "account_id": 11760,
+    "parent_id": 11720,
+    "code": "1.2.6.4",
+    "name": "(-) Cuentas Incobrables de Activos Financieros No Corrientes",
+    "description": "(-) Cuenta Incobrables de Activos Financieros No Corrientes",
+    "type": "Asset",
+    "nivel": ""
+  },
+  {
+    "account_id": 11770,
+    "parent_id": 11380,
+    "code": "1.2.7",
+    "name": "Otros Activos No Corrientes",
+    "description": "Otros Activos No Corrientes",
+    "type": "Asset",
+    "nivel": ""
+  },
+  {
+    "account_id": 11780,
+    "parent_id": 11380,
+    "code": "1.2.8",
+    "name": "OTRAS CUENTAS POR COBRAR DE ORDEN",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Asset",
+    "nivel": ""
+  },
+  {
+    "account_id": 20000,
+    "parent_id": "",
+    "code": 2,
+    "name": "Pasivos",
+    "description": "",
+    "type": "Liability",
+    "nivel": 1
+  },
+  {
+    "account_id": 20010,
+    "parent_id": 20000,
+    "code": 2.1,
+    "name": "Pasivo Corriente",
+    "description": "",
+    "type": "Liability",
+    "nivel": 2
+  },
+  {
+    "account_id": 20020,
+    "parent_id": 20010,
+    "code": "2.1.1",
+    "name": "Pasivos Financieros con Cambios en Resultados",
+    "description": "Pasivos Financieros con cambio en Resultados",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20030,
+    "parent_id": 20010,
+    "code": "2.1.2",
+    "name": "Pasivos por Contratos de Arrendamientos Financieros",
+    "description": "Pasivos por Contratos de Arrendamiento Financieros",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20040,
+    "parent_id": 20010,
+    "code": "2.1.3",
+    "name": "Cuentas y Documentos por Pagar",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20050,
+    "parent_id": 20040,
+    "code": "2.1.3.1",
+    "name": "Cuentas por Pagar Proveedores",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20060,
+    "parent_id": 20050,
+    "code": "2.1.3.1.1",
+    "name": "Proveedores varios",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20070,
+    "parent_id": 20050,
+    "code": "2.1.3.1.2",
+    "name": "Proveedores Exterior",
+    "description": "Cuenta por Pagar del Exterior",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20080,
+    "parent_id": 20050,
+    "code": "2.1.3.1.3",
+    "name": "Pasdarcar Otros Prestamos",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20090,
+    "parent_id": 20050,
+    "code": "2.1.3.1.4",
+    "name": "Directv",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20100,
+    "parent_id": 20050,
+    "code": "2.1.3.1.5",
+    "name": "Telconet",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20110,
+    "parent_id": 20050,
+    "code": "2.1.3.1.6",
+    "name": "Conecel",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20120,
+    "parent_id": 20050,
+    "code": "2.1.3.1.7",
+    "name": "Zúkalo",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20130,
+    "parent_id": 20050,
+    "code": "2.1.3.1.8",
+    "name": "Equifax",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20140,
+    "parent_id": 20050,
+    "code": "2.1.3.1.9",
+    "name": "EcuaCTI Cia. Ltda.",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20150,
+    "parent_id": 20050,
+    "code": "2.1.3.1.10",
+    "name": "Cnel",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20160,
+    "parent_id": 20050,
+    "code": "2.1.3.1.11",
+    "name": "Plaza Navas Pablo",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20170,
+    "parent_id": 20050,
+    "code": "2.1.3.1.12",
+    "name": "Luis Procel",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20180,
+    "parent_id": 20050,
+    "code": "2.1.3.1.13",
+    "name": "Lanuzzelli Granja Aldo",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20190,
+    "parent_id": 20050,
+    "code": "2.1.3.1.14",
+    "name": "Viviana Torres",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20200,
+    "parent_id": 20050,
+    "code": "2.1.3.1.15",
+    "name": "Cnt",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20210,
+    "parent_id": 20050,
+    "code": "2.1.3.1.16",
+    "name": "Interagua",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20220,
+    "parent_id": 20050,
+    "code": "2.1.3.1.17",
+    "name": "Jackelin Gomez",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20230,
+    "parent_id": 20050,
+    "code": "2.1.3.1.18",
+    "name": "Pasdarcar.- Arriendos",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20240,
+    "parent_id": 20050,
+    "code": "2.1.3.1.19",
+    "name": "Juan Carlos Santos Oberti (Fact)",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20250,
+    "parent_id": 20050,
+    "code": "2.1.3.1.20",
+    "name": "Mario Vera",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20260,
+    "parent_id": 20050,
+    "code": "2.1.3.1.21",
+    "name": "Ecuacable",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20270,
+    "parent_id": 20050,
+    "code": "2.1.3.1.22",
+    "name": "Ulpo Carangui Luis Enrique",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20280,
+    "parent_id": 20050,
+    "code": "2.1.3.1.23",
+    "name": "Isabel Piedra",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20290,
+    "parent_id": 20050,
+    "code": "2.1.3.1.24",
+    "name": "Rebeca Pérez",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20300,
+    "parent_id": 20050,
+    "code": "2.1.3.1.25",
+    "name": "El Rosado",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20310,
+    "parent_id": 20050,
+    "code": "2.1.3.1.26",
+    "name": "Plastiglobal SA",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20320,
+    "parent_id": 20040,
+    "code": "2.1.3.2",
+    "name": "Documentos por Pagar",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20330,
+    "parent_id": 20320,
+    "code": "2.1.3.2.1",
+    "name": "Documentos por Pagar Proveedores",
+    "description": "Documento por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20340,
+    "parent_id": 20320,
+    "code": "2.1.3.2.2",
+    "name": "Documentos por Pagar Proveedores Exterior",
+    "description": "Documento por Pagar del Exterior",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20350,
+    "parent_id": 20010,
+    "code": "2.1.4",
+    "name": "Obligaciones Con Instituciones Financieras",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20360,
+    "parent_id": 20350,
+    "code": "2.1.4.1",
+    "name": "Obligaciones con Instituciones Financieras Locales",
+    "description": "Obligaciones con Instituciones Financieras Locales",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20370,
+    "parent_id": 20350,
+    "code": "2.1.4.2",
+    "name": "Obligaciones con Instituciones Financieras Locales1",
+    "description": "Obligaciones con Instituciones Financieras Locales",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20380,
+    "parent_id": 20370,
+    "code": "2.1.4.2.1",
+    "name": "Préstamo Banco Comercial de Manabí Corriente",
+    "description": "Obligaciones con Instituciones Financieras Locales",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20390,
+    "parent_id": 20350,
+    "code": "2.1.4.3",
+    "name": "Tarjeta de crédito (Pago)",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20400,
+    "parent_id": 20390,
+    "code": "2.1.4.3.1",
+    "name": "Pichincha T/C Mastercad",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20410,
+    "parent_id": 20390,
+    "code": "2.1.4.3.2",
+    "name": "Pacifico Mastercard",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20420,
+    "parent_id": 20390,
+    "code": "2.1.4.3.3",
+    "name": "Titanium",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20430,
+    "parent_id": 20390,
+    "code": "2.1.4.3.4",
+    "name": "Diners Club",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20440,
+    "parent_id": 20390,
+    "code": "2.1.4.3.5",
+    "name": "Pichincha T/C JCSM",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20450,
+    "parent_id": 20390,
+    "code": "2.1.4.3.6",
+    "name": "Visa Austro T/C JCSM",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20460,
+    "parent_id": 20390,
+    "code": "2.1.4.3.7",
+    "name": "VISA (SRI)",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20470,
+    "parent_id": 20390,
+    "code": "2.1.4.3.8",
+    "name": "Pichincha Mastercard Iess",
+    "description": "Cuenta por Pagar (Tarjetas de Crédito)",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20480,
+    "parent_id": 20350,
+    "code": "2.1.4.4",
+    "name": "Obligaciones Temportales por Sobregiro",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20490,
+    "parent_id": 20350,
+    "code": "2.1.4.5",
+    "name": "Obligaciones con Instituciones Financieras del Exterior",
+    "description": "Obligaciones con Instituciones Financieras del Exterior",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20500,
+    "parent_id": 20010,
+    "code": "2.1.5",
+    "name": "Provisiones",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20510,
+    "parent_id": 20500,
+    "code": "2.1.5.1",
+    "name": "Provisiones Locales",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20520,
+    "parent_id": 20500,
+    "code": "2.1.5.2",
+    "name": "Provisiones del Exterior",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20530,
+    "parent_id": 20010,
+    "code": "2.1.6",
+    "name": "Porcion Corriente de Obligaciones Emitidas",
+    "description": "Porción Corriente de Obligaciones Emitidas",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20540,
+    "parent_id": 20010,
+    "code": "2.1.7",
+    "name": "Otras Obligaciones Corrientes",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 20550,
+    "parent_id": 20540,
+    "code": "2.1.7.1",
+    "name": "Retenciones del I.E.S.S.",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20560,
+    "parent_id": 20550,
+    "code": "2.1.7.1.1",
+    "name": "xxxx 9.45%",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20570,
+    "parent_id": 20550,
+    "code": "2.1.7.1.2",
+    "name": "xxxx Pq",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20580,
+    "parent_id": 20550,
+    "code": "2.1.7.1.3",
+    "name": "Prestamos Hipotecarios",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20590,
+    "parent_id": 20540,
+    "code": "2.1.7.2",
+    "name": "Retenciones en la Fuente de Impuestos a la Renta",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20600,
+    "parent_id": 20590,
+    "code": "2.1.7.2.1",
+    "name": "1% Bienes Muebles de Naturaleza Corporal",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20610,
+    "parent_id": 20590,
+    "code": "2.1.7.2.2",
+    "name": "2% Servicios",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20620,
+    "parent_id": 20590,
+    "code": "2.1.7.2.3",
+    "name": "8% Honorarios, Arrendamientos, Docencia, Deportistas",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20630,
+    "parent_id": 20590,
+    "code": "2.1.7.2.4",
+    "name": "25% Extranjeros No Residentes",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20640,
+    "parent_id": 20590,
+    "code": "2.1.7.2.5",
+    "name": "10% Hon.Profesionales y Dietas; Arriendos,Notarios y Otros",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20650,
+    "parent_id": 20590,
+    "code": "2.1.7.2.6",
+    "name": "15% Loterías, Rifas y Similares",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20660,
+    "parent_id": 20590,
+    "code": "2.1.7.2.7",
+    "name": "Otras Retenciones Aplicables al Cód. 343",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20670,
+    "parent_id": 20590,
+    "code": "2.1.7.2.8",
+    "name": "2.75% Servicios",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20680,
+    "parent_id": 20590,
+    "code": "2.1.7.2.9",
+    "name": "1.75% Bienes Muebles de Naturaleza Corporal",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20690,
+    "parent_id": 20590,
+    "code": "2.1.7.2.10",
+    "name": "1.75% Régimen Microempresas",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20700,
+    "parent_id": 20590,
+    "code": "2.1.7.2.11",
+    "name": "Retenciones Empleados Relac Depend",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20710,
+    "parent_id": 20590,
+    "code": "2.1.7.2.12",
+    "name": "Impuesto único a ingresos provenientes de actividades agropecuarias",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20720,
+    "parent_id": 20590,
+    "code": "2.1.7.2.13",
+    "name": "Retenciones Varias por Pagar",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20730,
+    "parent_id": 20590,
+    "code": "2.1.7.2.14",
+    "name": "3% Servicios profesionales prestados por sociedades residentes",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20740,
+    "parent_id": 20590,
+    "code": "2.1.7.2.15",
+    "name": "1% Seguros y reaseguros (primas y cesiones)",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20750,
+    "parent_id": 20540,
+    "code": "2.1.7.3",
+    "name": "Retenciones del Impuesto al Valor Agregado",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20760,
+    "parent_id": 20750,
+    "code": "2.1.7.3.1",
+    "name": "30% Bienes",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20770,
+    "parent_id": 20750,
+    "code": "2.1.7.3.2",
+    "name": "70% Servicios",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20780,
+    "parent_id": 20750,
+    "code": "2.1.7.3.3",
+    "name": "100% Honorarios, Arrendamientos",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20790,
+    "parent_id": 20750,
+    "code": "2.1.7.3.4",
+    "name": "100% Exportadores",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20800,
+    "parent_id": 20750,
+    "code": "2.1.7.3.5",
+    "name": "10% Bienes (Contribuyentes Especiales)",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20810,
+    "parent_id": 20750,
+    "code": "2.1.7.3.6",
+    "name": "20% Servicios (Contribuyentes Especiales)",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20820,
+    "parent_id": 20750,
+    "code": "2.1.7.3.7",
+    "name": "50% Servicios (Exportadores de Recursos Naturales No Renovables)",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20830,
+    "parent_id": 20750,
+    "code": "2.1.7.3.8",
+    "name": "100% Empresas Públicas",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20840,
+    "parent_id": 20750,
+    "code": "2.1.7.3.9",
+    "name": "100% Liquidación de Compra de Bienes y Servicios",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20850,
+    "parent_id": 20750,
+    "code": "2.1.7.3.10",
+    "name": "100% Contribuyentes Especiales",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20860,
+    "parent_id": 20750,
+    "code": "2.1.7.3.11",
+    "name": "100% Operadores de turismo",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20870,
+    "parent_id": 20540,
+    "code": "2.1.7.4",
+    "name": "IVA Sobre Ventas",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20880,
+    "parent_id": 20870,
+    "code": "2.1.7.4.1",
+    "name": "IVA sobre Ventas",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20890,
+    "parent_id": 20870,
+    "code": "2.1.7.4.2",
+    "name": "Iva por Pagar",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20900,
+    "parent_id": 20540,
+    "code": "2.1.7.5",
+    "name": "Impuestos por Pagar",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20910,
+    "parent_id": 20900,
+    "code": "2.1.7.5.1",
+    "name": "Impuesto a la Renta Cía.",
+    "description": "Impuesto a la Renta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20920,
+    "parent_id": 20900,
+    "code": "2.1.7.5.2",
+    "name": "Impuesto a la Junta de Beneficiencia",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20930,
+    "parent_id": 20900,
+    "code": "2.1.7.5.3",
+    "name": "Impuesto a los Activos Totales",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20940,
+    "parent_id": 20900,
+    "code": "2.1.7.5.4",
+    "name": "Impuestos a la Universidad de Guayaquil",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20950,
+    "parent_id": 20900,
+    "code": "2.1.7.5.5",
+    "name": "Impuestos Prediales",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20960,
+    "parent_id": 20900,
+    "code": "2.1.7.5.6",
+    "name": "Impuesto a los Consumos Especiales",
+    "description": "Obligaciones Tributarias",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20970,
+    "parent_id": 20900,
+    "code": "2.1.7.5.7",
+    "name": "Iva al Crédito",
+    "description": "Impuesto a la Renta por Pagar",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 20980,
+    "parent_id": 20540,
+    "code": "2.1.7.6",
+    "name": "Beneficios Sociales por Pagar e Iess",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 20990,
+    "parent_id": 20980,
+    "code": "2.1.7.6.1",
+    "name": "Décimo Tercer Sueldo",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21000,
+    "parent_id": 20980,
+    "code": "2.1.7.6.2",
+    "name": "Décimo Cuarto Sueldo",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21010,
+    "parent_id": 20980,
+    "code": "2.1.7.6.3",
+    "name": "Vacaciones",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21020,
+    "parent_id": 20980,
+    "code": "2.1.7.6.4",
+    "name": "Aportes Patronales y Pers. - Iece Secap I.E.S.S.",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21030,
+    "parent_id": 20980,
+    "code": "2.1.7.6.5",
+    "name": "1% Secap - Iece",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21040,
+    "parent_id": 20980,
+    "code": "2.1.7.6.6",
+    "name": "Fondos de Reservas",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21050,
+    "parent_id": 20980,
+    "code": "2.1.7.6.7",
+    "name": "Provisión de Jubilación Patronal",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21060,
+    "parent_id": 20980,
+    "code": "2.1.7.6.8",
+    "name": "Provisión por Desahucio",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21070,
+    "parent_id": 20980,
+    "code": "2.1.7.6.9",
+    "name": "Otros Beneficios por Pagar",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21080,
+    "parent_id": 20980,
+    "code": "2.1.7.6.10",
+    "name": "9.45% Aportes Individuales Iess",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21090,
+    "parent_id": 20980,
+    "code": "2.1.7.6.11",
+    "name": "Prestamos Quirografarios",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21100,
+    "parent_id": 20980,
+    "code": "2.1.7.6.12",
+    "name": "Prestamos Hipotecarios",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21110,
+    "parent_id": 20540,
+    "code": "2.1.7.7",
+    "name": "Nominas",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21120,
+    "parent_id": 21110,
+    "code": "2.1.7.7.1",
+    "name": "Sueldos por Pagar",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21130,
+    "parent_id": 21110,
+    "code": "2.1.7.7.2",
+    "name": "Sueldos por Pagar Jackeline Gomez",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21140,
+    "parent_id": 21110,
+    "code": "2.1.7.7.3",
+    "name": "Sueldos por Pagar Ivonne Massuh",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21150,
+    "parent_id": 21110,
+    "code": "2.1.7.7.4",
+    "name": "Sueldos por Pagar Isabela Piedra",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21160,
+    "parent_id": 21110,
+    "code": "2.1.7.7.5",
+    "name": "Sueldos por Pagar JCSM",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21170,
+    "parent_id": 21110,
+    "code": "2.1.7.7.6",
+    "name": "Sueldos por Pagar JCSO",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21180,
+    "parent_id": 21110,
+    "code": "2.1.7.7.7",
+    "name": "Sueldos por Pagar Ma.Ronquillo",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21190,
+    "parent_id": 21110,
+    "code": "2.1.7.7.8",
+    "name": "Sueldos por Pagar Joseph Sosa",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21200,
+    "parent_id": 21110,
+    "code": "2.1.7.7.9",
+    "name": "Sueldos por Pagar Irene Triviño",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21210,
+    "parent_id": 21110,
+    "code": "2.1.7.7.10",
+    "name": "Sueldos por Pagar Maria Andrea Perez",
+    "description": "Obligaciones por Beneficios de Ley",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21220,
+    "parent_id": 21110,
+    "code": "2.1.7.7.11",
+    "name": "Sueldos por Pagar Juan Andres Santos",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21230,
+    "parent_id": 21110,
+    "code": "2.1.7.7.12",
+    "name": "Sueldos por Pagar Cristhel Benites",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21240,
+    "parent_id": 21110,
+    "code": "2.1.7.7.13",
+    "name": "Sueldos por Pagar Catherine Herdoiza",
+    "description": "Obligaciones Sociales con el IESS",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21250,
+    "parent_id": 20540,
+    "code": "2.1.7.8",
+    "name": "Participación de Trabajadores",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21260,
+    "parent_id": 21250,
+    "code": "2.1.7.8.1",
+    "name": "10% Trabajadores en General",
+    "description": "Participación Trabajadores por Pagar del Ejercicio",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21270,
+    "parent_id": 21250,
+    "code": "2.1.7.8.2",
+    "name": "5% Cargas Familiares",
+    "description": "Participación Trabajadores por Pagar del Ejercicio",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21280,
+    "parent_id": 21250,
+    "code": "2.1.7.8.3",
+    "name": "Participación Trabajadores por Pagar",
+    "description": "Participación Trabajadores por Pagar del Ejercicio",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21290,
+    "parent_id": 20540,
+    "code": "2.1.7.9",
+    "name": "Dividendos por Pagar a Socios",
+    "description": "Dividendos por Pagar",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21300,
+    "parent_id": 20010,
+    "code": "2.1.8",
+    "name": "Cuentas por Pagar Diversas/Relacionadas",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21310,
+    "parent_id": 21300,
+    "code": "2.1.8.1",
+    "name": "Cuenta por Pagar Socios o Accionistas",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21320,
+    "parent_id": 21310,
+    "code": "2.1.8.1.1",
+    "name": "Juan Carlos Santos O. (Socio)",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21330,
+    "parent_id": 21310,
+    "code": "2.1.8.1.2",
+    "name": "Cuentas por Pagar Juan Carlos Santos O.",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21340,
+    "parent_id": 21300,
+    "code": "2.1.8.2",
+    "name": "Cuentas por Pagar Funcionarios y/o Empleados",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21350,
+    "parent_id": 21300,
+    "code": "2.1.8.3",
+    "name": "Cuentas por Pagar Compañías Relacionadas",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21360,
+    "parent_id": 21300,
+    "code": "2.1.8.4",
+    "name": "Cuentas por Pagar Compañías Relacionadas del Exterior",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21370,
+    "parent_id": 21300,
+    "code": "2.1.8.5",
+    "name": "Documentos por Pagar Funcionarios y/o Empleados",
+    "description": "Documento por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21380,
+    "parent_id": 21300,
+    "code": "2.1.8.6",
+    "name": "Documentos por Pagar Compañías Relacionadas",
+    "description": "Documento por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21390,
+    "parent_id": 21300,
+    "code": "2.1.8.7",
+    "name": "Cuentas por Pagar Funcionarios y/o Empleados (10% Servicio)",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21400,
+    "parent_id": 20010,
+    "code": "2.1.9",
+    "name": "Otros Pasivos Financieros",
+    "description": "Otros Pasivos Financieros",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21410,
+    "parent_id": 20010,
+    "code": "2.1.10",
+    "name": "Anticipos de Clientes",
+    "description": "Anticipo de Clientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21420,
+    "parent_id": 20010,
+    "code": "2.1.11",
+    "name": "Pasivos directamente relacionados con los Activos No Corrientes",
+    "description": "Pasivos directamente relacionados con Activos No Corrientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21430,
+    "parent_id": 20010,
+    "code": "2.1.12",
+    "name": "Porción Corriente de Provisiones por Beneficios a Empleados",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21440,
+    "parent_id": 21430,
+    "code": "2.1.12.1",
+    "name": "Jubilación Patronal",
+    "description": "Jubilación Patronal",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21450,
+    "parent_id": 21430,
+    "code": "2.1.12.2",
+    "name": "Otros Beneficios a largo Plazo para los Empleados",
+    "description": "Cuenta por Pagar",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21460,
+    "parent_id": 20010,
+    "code": "2.1.13",
+    "name": "Otros Pasivos Corrientes",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21470,
+    "parent_id": 21460,
+    "code": "2.1.13.1",
+    "name": "Estrucplan Préstamos",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21480,
+    "parent_id": 21460,
+    "code": "2.1.13.2",
+    "name": "Pasdarcar Préstamo",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21490,
+    "parent_id": 21460,
+    "code": "2.1.13.3",
+    "name": "Estrucplan Varios por Pagar",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21500,
+    "parent_id": 21460,
+    "code": "2.1.13.4",
+    "name": "Pasdarcar Varios por Pagar",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21510,
+    "parent_id": 21460,
+    "code": "2.1.13.5",
+    "name": "Rebeca Pérez - Préstamos",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21520,
+    "parent_id": 21460,
+    "code": "2.1.13.6",
+    "name": "Construcciones KKlaere",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21530,
+    "parent_id": 21460,
+    "code": "2.1.13.7",
+    "name": "Fid Mercantil Hotel Aereopuerto Quito",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21540,
+    "parent_id": 21460,
+    "code": "2.1.13.8",
+    "name": "Isabela Piedra compras extranjero x pagar",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21550,
+    "parent_id": 21460,
+    "code": "2.1.13.9",
+    "name": "Laptop JGomez",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21560,
+    "parent_id": 21460,
+    "code": "2.1.13.10",
+    "name": "Laptop Jasm",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21570,
+    "parent_id": 21460,
+    "code": "2.1.13.11",
+    "name": "Renovación Smartsheet",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21580,
+    "parent_id": 21460,
+    "code": "2.1.13.12",
+    "name": "Bonos Navideños",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21590,
+    "parent_id": 21460,
+    "code": "2.1.13.13",
+    "name": "Prestamo Pasdarcar (Timec-Adriana-Induchan)",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21600,
+    "parent_id": 21460,
+    "code": "2.1.13.14",
+    "name": "Pasdarcar Jose Juez- Inmocost",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21610,
+    "parent_id": 21460,
+    "code": "2.1.13.15",
+    "name": "Prestamo Pasdarcar Ecuactic",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21620,
+    "parent_id": 21460,
+    "code": "2.1.13.16",
+    "name": "Otras Cuentas por Pagar Jackelin Gómez",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21630,
+    "parent_id": 21460,
+    "code": "2.1.13.17",
+    "name": "Otras Cuentas por Pagar EC. B. LEON",
+    "description": "Otros Pasivos Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21640,
+    "parent_id": 20010,
+    "code": "2.1.14",
+    "name": "Rendimientos Cobrados",
+    "description": "Anticipo de Clientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21650,
+    "parent_id": 21640,
+    "code": "2.1.14.1",
+    "name": "Rendimientos Varios",
+    "description": "Anticipo de Clientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21660,
+    "parent_id": 21640,
+    "code": "2.1.15",
+    "name": "OTRAS CUENTAS DE ORDEN",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21670,
+    "parent_id": 20000,
+    "code": 2.2,
+    "name": "Pasivo No Corriente",
+    "description": "",
+    "type": "Liability",
+    "nivel": 2
+  },
+  {
+    "account_id": 21680,
+    "parent_id": 21670,
+    "code": "2.2.1",
+    "name": "Pasivos por Contratos de Arrendamiento Financiero",
+    "description": "Pasivos por Contratos de Arrendamiento Financiero No Corrientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21690,
+    "parent_id": 21670,
+    "code": "2.2.2",
+    "name": "Cuentas y Documentos por Pagar",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21700,
+    "parent_id": 21690,
+    "code": "2.2.2.1",
+    "name": "Cuentas por Pagar",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21710,
+    "parent_id": 21700,
+    "code": "2.2.2.1.1",
+    "name": "Proveedores No Corriente",
+    "description": "Cuenta por Pagar No Corriente",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21720,
+    "parent_id": 21700,
+    "code": "2.2.2.1.2",
+    "name": "Proveedores Exterior No Corriente",
+    "description": "Cuenta por Pagar del Exterior No Corriente",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21730,
+    "parent_id": 21690,
+    "code": "2.2.2.2",
+    "name": "Documentos por Pagar",
+    "description": "",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21740,
+    "parent_id": 21730,
+    "code": "2.2.2.2.1",
+    "name": "Documento por Pagar Proveedores No Corriente",
+    "description": "Documento por Pagar No Corriente",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21750,
+    "parent_id": 21730,
+    "code": "2.2.2.2.2",
+    "name": "Documentos por Pagar Proveedores Exterior No Corriente",
+    "description": "Documento por Pagar del Exterior No Corriente",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21760,
+    "parent_id": 21670,
+    "code": "2.2.3",
+    "name": "Obligaciones con Instituciones Financieras",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21770,
+    "parent_id": 21760,
+    "code": "2.2.3.1",
+    "name": "Obligaciones con Instituciones Financieras Locales No Corrientes",
+    "description": "Obligaciones con Instituciones Financieras locales No Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21780,
+    "parent_id": 21770,
+    "code": "2.2.3.1.1",
+    "name": "Préstamo Banco de Manabí",
+    "description": "Obligaciones con Instituciones Financieras locales No Corrientes",
+    "type": "Liability",
+    "nivel": 5
+  },
+  {
+    "account_id": 21790,
+    "parent_id": 21760,
+    "code": "2.2.3.2",
+    "name": "Obligaciones con Instituciones Financieras del Exterior No Corriente",
+    "description": "Obligaciones con Instituciones Financieras del Exterior No Corriente",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21800,
+    "parent_id": 21670,
+    "code": "2.2.4",
+    "name": "Cuenta por Pagar Diversas/Relacionadas",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21810,
+    "parent_id": 21800,
+    "code": "2.2.4.1",
+    "name": "Cuenta por Pagar Socios o Accionistas No Corrientes",
+    "description": "Cuenta por Pagar Relacionadas No Corriente",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21820,
+    "parent_id": 21800,
+    "code": "2.2.4.2",
+    "name": "Cuenta por Pagar Funcionarios y/o Empleados No Corriente",
+    "description": "Cuenta por Pagar Relacionadas No Corriente",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21830,
+    "parent_id": 21800,
+    "code": "2.2.4.3",
+    "name": "Cuenta por Pagar Compañias Relacionadas No Corriente",
+    "description": "Cuenta por Pagar Relacionadas No Corriente",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21840,
+    "parent_id": 21800,
+    "code": "2.2.4.4",
+    "name": "Cuenta por Pagar Compañías Relacionadas del Exterior No Corriente",
+    "description": "Cuenta por Pagar Compañías Relacionadas del Ext No Corriente",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21850,
+    "parent_id": 21670,
+    "code": "2.2.5",
+    "name": "Obligaciones Emitidas",
+    "description": "Obligaciones Emitidas No Corrientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21860,
+    "parent_id": 21670,
+    "code": "2.2.6",
+    "name": "Anticipos de Clientes",
+    "description": "Anticipos de Clientes No Corrientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21870,
+    "parent_id": 21670,
+    "code": "2.2.7",
+    "name": "Provisiones por Beneficios a Empleados",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21880,
+    "parent_id": 21870,
+    "code": "2.2.7.1",
+    "name": "Jubilación Patronal",
+    "description": "Obligaciones por Beneficios de Ley No Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21890,
+    "parent_id": 21870,
+    "code": "2.2.7.2",
+    "name": "Otros Beneficios No Corrientes Para los Empleados",
+    "description": "Otros Beneficios para los Empleados No Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21900,
+    "parent_id": 21870,
+    "code": "2.2.7.3",
+    "name": "Liquidacion de Haberes Empleados",
+    "description": "Obligaciones por Beneficios de Ley No Corrientes",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21910,
+    "parent_id": 21670,
+    "code": "2.2.8",
+    "name": "Pasivo Diferido",
+    "description": "",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21920,
+    "parent_id": 21910,
+    "code": "2.2.8.1",
+    "name": "Ingresos Diferidos",
+    "description": "Pasivos por Ingresos Diferidos",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21930,
+    "parent_id": 21910,
+    "code": "2.2.8.2",
+    "name": "Pasivos por Impuestos Diferidos",
+    "description": "Pasivos por Impuestos Diferidos",
+    "type": "Liability",
+    "nivel": 4
+  },
+  {
+    "account_id": 21940,
+    "parent_id": 21670,
+    "code": "2.2.9",
+    "name": "Otros Pasivos No Corrientes",
+    "description": "Otros Pasivos No Corrientes",
+    "type": "Liability",
+    "nivel": 3
+  },
+  {
+    "account_id": 21950,
+    "parent_id": 20000,
+    "code": 2.3,
+    "name": "CUENTAS POR PAGAR",
+    "description": "Cuenta por Pagar Relacionadas",
+    "type": "Liability",
+    "nivel": 2
+  },
+  {
+    "account_id": 30000,
+    "parent_id": "",
+    "code": 3,
+    "name": "Patrimonio",
+    "description": "",
+    "type": "Equity",
+    "nivel": 1
+  },
+  {
+    "account_id": 30010,
+    "parent_id": 30000,
+    "code": 3.1,
+    "name": "Patrimonio Atribuible a Propietarios",
+    "description": "",
+    "type": "Equity",
+    "nivel": 2
+  },
+  {
+    "account_id": 30020,
+    "parent_id": 30010,
+    "code": "3.1.1",
+    "name": "Capital Social",
+    "description": "",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30030,
+    "parent_id": 30020,
+    "code": "3.1.1.1",
+    "name": "Capital Social suscrito o pagado",
+    "description": "Capital Social Suscrito o Pagado",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30040,
+    "parent_id": 30030,
+    "code": "3.1.1.2",
+    "name": "(-) Capital suscrito no pagado, acciones en tesorería",
+    "description": "(-) Capital Suscrito no Pagado, Acciones en Tesorería",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30050,
+    "parent_id": 30010,
+    "code": "3.1.2",
+    "name": "Aportes de Socios o Accionistas para Futura Capitalización",
+    "description": "Aportes de Socios o Accionistas para Futura Capitalización",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30060,
+    "parent_id": 30010,
+    "code": "3.1.3",
+    "name": "Prima por Emisión Primaria de Acciones",
+    "description": "Prima por emisión Primaria de Acciones",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30070,
+    "parent_id": 30010,
+    "code": "3.1.4",
+    "name": "Reservas",
+    "description": "",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30080,
+    "parent_id": 30070,
+    "code": "3.1.4.1",
+    "name": "Reserva Legal",
+    "description": "Legal",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30090,
+    "parent_id": 30070,
+    "code": "3.1.4.2",
+    "name": "Reserva Facultativa y Estatutaria",
+    "description": "Facultativa y Estatuaria",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30100,
+    "parent_id": 30070,
+    "code": "3.1.4.3",
+    "name": "Reserva de Capital",
+    "description": "Reserva de Capital",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30110,
+    "parent_id": 30010,
+    "code": "3.1.5",
+    "name": "Otros Resultados Integrales",
+    "description": "",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30120,
+    "parent_id": 30110,
+    "code": "3.1.5.1",
+    "name": "Superávit por Valuación de Activos Financieros",
+    "description": "Superávit por Valuación de Activos Financieros",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30130,
+    "parent_id": 30110,
+    "code": "3.1.5.2",
+    "name": "Superávit por Revaluación de Propiedad, Plantas y Equipos",
+    "description": "Superávit por Revaluación de Propiedad, Plantas y Equipos",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30140,
+    "parent_id": 30110,
+    "code": "3.1.5.3",
+    "name": "Superávit por Valuación de Activos Intagibles",
+    "description": "Superávit por Revaluacion de Activos Intangibles",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30150,
+    "parent_id": 30110,
+    "code": "3.1.5.4",
+    "name": "Otros Superávit por Revaluación",
+    "description": "Otros Superávit por Revaluacion",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30160,
+    "parent_id": 30010,
+    "code": "3.1.6",
+    "name": "Resultados Acumulados",
+    "description": "",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30170,
+    "parent_id": 30160,
+    "code": "3.1.6.1",
+    "name": "Resultados Acumulados",
+    "description": "Ganancias Acumuladas",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30180,
+    "parent_id": 30160,
+    "code": "3.1.6.2",
+    "name": "Resultados provenientes de la adopción por 1era vez del las NIIF",
+    "description": "Resultados provenientes de la adopción por 1era vez del las NIIF",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30190,
+    "parent_id": 30160,
+    "code": "3.1.6.3",
+    "name": "Perdida Año Anterior",
+    "description": "Perdida Acumulada",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30200,
+    "parent_id": 30190,
+    "code": "3.1.7",
+    "name": "Resultado del Ejercicio",
+    "description": "",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 30210,
+    "parent_id": 30200,
+    "code": "3.1.7.1",
+    "name": "Resultado del Ejercicio",
+    "description": "Ganancia neta el Ejercicio",
+    "type": "Equity",
+    "nivel": 4
+  },
+  {
+    "account_id": 30220,
+    "parent_id": 30000,
+    "code": 3.2,
+    "name": "Participación No Controladas",
+    "description": "",
+    "type": "Equity",
+    "nivel": 2
+  },
+  {
+    "account_id": 30230,
+    "parent_id": 30220,
+    "code": "3.2.1",
+    "name": "Participación No Controladas",
+    "description": "Participación No Controladas",
+    "type": "Equity",
+    "nivel": 3
+  },
+  {
+    "account_id": 40000,
+    "parent_id": "",
+    "code": 4,
+    "name": "Ingresos",
+    "description": "",
+    "type": "Income",
+    "nivel": 1
+  },
+  {
+    "account_id": 40010,
+    "parent_id": 40000,
+    "code": 4.1,
+    "name": "Ingresos de Actividades Ordinarias",
+    "description": "",
+    "type": "Income",
+    "nivel": 2
+  },
+  {
+    "account_id": 40020,
+    "parent_id": 40010,
+    "code": "4.1.1",
+    "name": "Venta de Bienes Varios",
+    "description": "Ingresos por Ventas de Bienes",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40030,
+    "parent_id": 40010,
+    "code": "4.1.2",
+    "name": "Prestación de Servicios (Ingresos)",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40040,
+    "parent_id": 40010,
+    "code": "4.1.3",
+    "name": "Devoluciones sobre Ventas",
+    "description": "Devoluciones sobre Ventas",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40050,
+    "parent_id": 40010,
+    "code": "4.1.4",
+    "name": "Rebaja y/o Descuentos sobre Ventas",
+    "description": "Rebaja y/o Descuentos sobre Ventas",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40060,
+    "parent_id": 40010,
+    "code": "4.1.5",
+    "name": "Ingresos por Regalías Cuotas y Comisiones",
+    "description": "Ingresos por Regalías,  Cuotas y Comisiones",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40070,
+    "parent_id": 40010,
+    "code": "4.1.6",
+    "name": "Ingresos por Contratos de Intermediación",
+    "description": "Ingresos por Contratos de Intermediación",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40080,
+    "parent_id": 40010,
+    "code": "4.1.7",
+    "name": "Ingresos por Asesoria Financiera",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40090,
+    "parent_id": 40080,
+    "code": "4.1.7.1",
+    "name": "Pasdarcar",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40100,
+    "parent_id": 40080,
+    "code": "4.1.7.2",
+    "name": "FIDEICOMISO MERCANTIL HOTEL AEROPUERTO QUITO",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40110,
+    "parent_id": 40080,
+    "code": "4.1.7.3",
+    "name": "FIDEICOMISO HOTEL AEROPUERTO",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40120,
+    "parent_id": 40080,
+    "code": "4.1.7.4",
+    "name": "FIDEICOMISO BOSQUES DE LOS CEIBOS",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40130,
+    "parent_id": 40080,
+    "code": "4.1.7.5",
+    "name": "DIPROFONIA SA",
+    "description": "Ingresos por Prestación de Servicios",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40140,
+    "parent_id": 40010,
+    "code": "4.1.8",
+    "name": "Contratos de Construcción",
+    "description": "Contratos de Construcción",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40150,
+    "parent_id": 40010,
+    "code": "4.1.9",
+    "name": "Subvenciones del Gobierno",
+    "description": "Subvenciones de Gobierno",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40160,
+    "parent_id": 40010,
+    "code": "4.1.10",
+    "name": "Ingresos por Dividendos",
+    "description": "Ingresos por Dividendos",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40170,
+    "parent_id": 40010,
+    "code": "4.1.11",
+    "name": "Otros Ingresos de Actividades Ordinarias",
+    "description": "Otros Ingresos de Actividades Ordinarias",
+    "type": "Income",
+    "nivel": 4
+  },
+  {
+    "account_id": 40180,
+    "parent_id": 40000,
+    "code": 4.2,
+    "name": "Otros Ingresos de Actividades Ordinarias",
+    "description": "",
+    "type": "Income",
+    "nivel": 2
+  },
+  {
+    "account_id": 40190,
+    "parent_id": 40180,
+    "code": "4.2.1",
+    "name": "Fletes",
+    "description": "Fletes de Actividades Ordinarias",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40200,
+    "parent_id": 40180,
+    "code": "4.2.2",
+    "name": "Multas",
+    "description": "Multas de Actividades Ordinarias",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40210,
+    "parent_id": 40180,
+    "code": "4.2.3",
+    "name": "Intereses",
+    "description": "Intereses de Actividades Ordinarias",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40220,
+    "parent_id": 40180,
+    "code": "4.2.4",
+    "name": "Reembolso (No Gravables)",
+    "description": "Propinas de Actividades Ordinarias No Gravables",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40230,
+    "parent_id": 40000,
+    "code": 4.3,
+    "name": "Otros Ingresos Financieros",
+    "description": "",
+    "type": "Income",
+    "nivel": 2
+  },
+  {
+    "account_id": 40240,
+    "parent_id": 40230,
+    "code": "4.3.1",
+    "name": "Dividendos Financieros",
+    "description": "Dividendos Financieros",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40250,
+    "parent_id": 40230,
+    "code": "4.3.2",
+    "name": "Intereses Financieros",
+    "description": "Intereses Financieros",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40260,
+    "parent_id": 40230,
+    "code": "4.3.3",
+    "name": "Ganancia de Asociadas y Negocios Conjuntos",
+    "description": "Ganancia de Asociadas y Negocios Conjuntos",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40270,
+    "parent_id": 40230,
+    "code": "4.3.4",
+    "name": "Valuación de Instrumentos Financieros",
+    "description": "Valuación de Instrumentos Financieros",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40280,
+    "parent_id": 40230,
+    "code": "4.3.5",
+    "name": "Otras Rentas",
+    "description": "Otras Rentas",
+    "type": "Income",
+    "nivel": 3
+  },
+  {
+    "account_id": 40290,
+    "parent_id": 40000,
+    "code": 4.4,
+    "name": "Ingresos por Operaciones Discontinuadas",
+    "description": "Ingresos por Operaciones discontinuadas",
+    "type": "Income",
+    "nivel": 2
+  },
+  {
+    "account_id": 50000,
+    "parent_id": "",
+    "code": 5,
+    "name": "Costos y Gastos",
+    "description": "",
+    "type": "Expense",
+    "nivel": 1
+  },
+  {
+    "account_id": 50010,
+    "parent_id": 50000,
+    "code": 5.1,
+    "name": "Costos de Venta y Producción",
+    "description": "",
+    "type": "Expense",
+    "nivel": 2
+  },
+  {
+    "account_id": 50020,
+    "parent_id": 50010,
+    "code": "5.1.1",
+    "name": "Materiales Utilizados o Productos Vendidos",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 50030,
+    "parent_id": 50020,
+    "code": "5.1.1.1",
+    "name": "Bienes No Producidos",
+    "description": "Bienes No Producidos",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50040,
+    "parent_id": 50020,
+    "code": "5.1.1.2",
+    "name": "Bienes No Producidos Importados",
+    "description": "Bienes No Producidos Importados",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50050,
+    "parent_id": 50020,
+    "code": "5.1.1.3",
+    "name": "Materia Prima",
+    "description": "Materia Prima - Costo de Venta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50060,
+    "parent_id": 50020,
+    "code": "5.1.1.4",
+    "name": "Materia Prima Importada",
+    "description": "Materia Prima Importada - Costo de Venta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50070,
+    "parent_id": 50020,
+    "code": "5.1.1.5",
+    "name": "Productos en Proceso",
+    "description": "Productos en Proceso - Costo de Venta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50080,
+    "parent_id": 50020,
+    "code": "5.1.1.6",
+    "name": "Productos Terminados",
+    "description": "Productos Terminados - Costo de Venta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50090,
+    "parent_id": 50010,
+    "code": "5.1.2",
+    "name": "Mano de Obra Directa",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 50100,
+    "parent_id": 50090,
+    "code": "5.1.2.1",
+    "name": "Sueldos Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50110,
+    "parent_id": 50090,
+    "code": "5.1.2.2",
+    "name": "Sobretiempos Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50120,
+    "parent_id": 50090,
+    "code": "5.1.2.3",
+    "name": "Décimo Tercer Sueldo Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50130,
+    "parent_id": 50090,
+    "code": "5.1.2.4",
+    "name": "Decimo Cuarto Sueldo Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50140,
+    "parent_id": 50090,
+    "code": "5.1.2.5",
+    "name": "Vacaciones Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50150,
+    "parent_id": 50090,
+    "code": "5.1.2.6",
+    "name": "Aportes Patronales al I.E.S.S. Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50160,
+    "parent_id": 50090,
+    "code": "5.1.2.7",
+    "name": "Secap - Iece Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50170,
+    "parent_id": 50090,
+    "code": "5.1.2.8",
+    "name": "Fondos de Reserva Mano de Obra Directa",
+    "description": "Sueldos y Beneficios Sociales - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50180,
+    "parent_id": 50090,
+    "code": "5.1.2.9",
+    "name": "Gastos Planes de Beneficios a Empleados Mano de Obra Directa",
+    "description": "Gastos Planes de Beneficios a Empleados - Directa",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50190,
+    "parent_id": 50010,
+    "code": "5.1.3",
+    "name": "Mano de Obra Indirecta",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 50200,
+    "parent_id": 50190,
+    "code": "5.1.3.1",
+    "name": "Sueldos Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50210,
+    "parent_id": 50190,
+    "code": "5.1.3.2",
+    "name": "Sobretiempos Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50220,
+    "parent_id": 50190,
+    "code": "5.1.3.3",
+    "name": "Décimo Tercer Sueldo Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50230,
+    "parent_id": 50190,
+    "code": "5.1.3.4",
+    "name": "Décimo Cuarto Sueldo Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50240,
+    "parent_id": 50190,
+    "code": "5.1.3.5",
+    "name": "Vacaciones Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50250,
+    "parent_id": 50190,
+    "code": "5.1.3.6",
+    "name": "Aportes Patronales al I.E.S.S. Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50260,
+    "parent_id": 50190,
+    "code": "5.1.3.7",
+    "name": "Secap - Iece Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50270,
+    "parent_id": 50190,
+    "code": "5.1.3.8",
+    "name": "Fondos de Reserva Mano de Obra Indirecta",
+    "description": "Sueldos y Beneficios Sociales - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50280,
+    "parent_id": 50190,
+    "code": "5.1.3.9",
+    "name": "Gastos Planes de Beneficios a Empleados - Indirecta",
+    "description": "Gastos Planes de Beneficios a Empleados - Indirecta",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50290,
+    "parent_id": 50010,
+    "code": "5.1.4",
+    "name": "Costos Indirectos de Fabricación",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 50300,
+    "parent_id": 50290,
+    "code": "5.1.4.1",
+    "name": "Depreciación Propiedades, Plantas y Equipos",
+    "description": "Depreciación Propiedades, Plantas y Equipos",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50310,
+    "parent_id": 50290,
+    "code": "5.1.4.2",
+    "name": "Depreciación de Activos Biológicos",
+    "description": "Depreciación de Activos Biológicos",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50320,
+    "parent_id": 50290,
+    "code": "5.1.4.3",
+    "name": "Deterioro de Propiedad, Planta y Equipo",
+    "description": "Deterioro de Propiedad, Planta y Equipo",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50330,
+    "parent_id": 50290,
+    "code": "5.1.4.4",
+    "name": "Efecto valor neto de realización de Inventarios",
+    "description": "Efecto valor neto de realización de Inventarios",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50340,
+    "parent_id": 50290,
+    "code": "5.1.4.5",
+    "name": "Gasto por Garantías en Venta de Productos o Servicios",
+    "description": "Gasto por Garantías en Venta de Productos o Servicios",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50350,
+    "parent_id": 50290,
+    "code": "5.1.4.6",
+    "name": "Mantenimiento y Reparaciones Costos",
+    "description": "Mantenimiento y Reparaciones Costos",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50360,
+    "parent_id": 50290,
+    "code": "5.1.4.7",
+    "name": "Suministros, Materiales y Repuestos Costos",
+    "description": "Suministros, Materiales y Repuestos Costos",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50370,
+    "parent_id": 50290,
+    "code": "5.1.4.8",
+    "name": "Otros Costos de Producción",
+    "description": "Otros Costos de Producción",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50380,
+    "parent_id": 50000,
+    "code": 5.2,
+    "name": "Gastos",
+    "description": "",
+    "type": "Expense",
+    "nivel": 2
+  },
+  {
+    "account_id": 50390,
+    "parent_id": 50380,
+    "code": "5.2.1",
+    "name": "Gastos de Actividades Ordinarias",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 50400,
+    "parent_id": 50390,
+    "code": "5.2.1.1",
+    "name": "Ventas",
+    "description": "",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 50410,
+    "parent_id": 50400,
+    "code": "5.2.1.1.1",
+    "name": "Sueldos Unificados Vtas.",
+    "description": "Sueldos y Beneficios Sociales",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50420,
+    "parent_id": 50400,
+    "code": "5.2.1.1.2",
+    "name": "Sobretiempos Vtas.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50430,
+    "parent_id": 50400,
+    "code": "5.2.1.1.3",
+    "name": "Gratificaciones Vtas.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50440,
+    "parent_id": 50400,
+    "code": "5.2.1.1.4",
+    "name": "Alimentación Vtas.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50450,
+    "parent_id": 50400,
+    "code": "5.2.1.1.5",
+    "name": "Aportes Patronales al IESS Vtas.",
+    "description": "Aportes a la Seguridad Social Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50460,
+    "parent_id": 50400,
+    "code": "5.2.1.1.6",
+    "name": "Secap - Iece Vtas.",
+    "description": "Aportes a la Seguridad Social Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50470,
+    "parent_id": 50400,
+    "code": "5.2.1.1.7",
+    "name": "Fondos de Reserva Vtas.",
+    "description": "Aportes a la Seguridad Social Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50480,
+    "parent_id": 50400,
+    "code": "5.2.1.1.8",
+    "name": "Décimo Tercer Sueldo Vtas.",
+    "description": "Beneficios Sociales e Indemnizaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50490,
+    "parent_id": 50400,
+    "code": "5.2.1.1.9",
+    "name": "Décimo Cuarto Sueldo Vtas.",
+    "description": "Beneficios Sociales e Indemnizaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50500,
+    "parent_id": 50400,
+    "code": "5.2.1.1.10",
+    "name": "Vacaciones Vtas.",
+    "description": "Beneficios Sociales e Indemnizaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50510,
+    "parent_id": 50400,
+    "code": "5.2.1.1.11",
+    "name": "Desahucio Vtas.",
+    "description": "Beneficios Sociales e Indemnizaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50520,
+    "parent_id": 50400,
+    "code": "5.2.1.1.12",
+    "name": "Gastos Planes de Beneficios a Empleados Vtas",
+    "description": "Gastos Planes de Beneficios a Empleados Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50530,
+    "parent_id": 50400,
+    "code": "5.2.1.1.13",
+    "name": "Honorarios Profesionales Vtas.",
+    "description": "Gastos Honorarios, Comisiones y Dietas a PN Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50540,
+    "parent_id": 50400,
+    "code": "5.2.1.1.14",
+    "name": "Servicios Contratados Vtas.",
+    "description": "Gastos Honorarios, Comisiones y Dietas a PN Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50550,
+    "parent_id": 50400,
+    "code": "5.2.1.1.15",
+    "name": "Gastos Remuneraciones a otros trabajadores autónomos Vtas",
+    "description": "Gastos Remuneraciones a otros trabajadores autónomos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50560,
+    "parent_id": 50400,
+    "code": "5.2.1.1.16",
+    "name": "Gastos Honorarios a extranjeros por Servicios Ocasionales Vtas",
+    "description": "Gastos Honorarios a extranjeros por Servicios Ocasionales Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50570,
+    "parent_id": 50400,
+    "code": "5.2.1.1.17",
+    "name": "Mantenimiento de Equipos Vtas.",
+    "description": "Gastos de Mantenimiento, Repuestos y Reparaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50580,
+    "parent_id": 50400,
+    "code": "5.2.1.1.18",
+    "name": "Reparaciones de Equipos Vtas.",
+    "description": "Gastos de Mantenimiento, Repuestos y Reparaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50590,
+    "parent_id": 50400,
+    "code": "5.2.1.1.19",
+    "name": "Arriendos Vtas",
+    "description": "Gastos Arrendamiento Operativo Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50600,
+    "parent_id": 50400,
+    "code": "5.2.1.1.20",
+    "name": "Comisiones Vtas",
+    "description": "Comisiones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50610,
+    "parent_id": 50400,
+    "code": "5.2.1.1.21",
+    "name": "Publicidad y Promoción Vtas.",
+    "description": "Gastos Promociones y Publicidad Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50620,
+    "parent_id": 50400,
+    "code": "5.2.1.1.22",
+    "name": "Publicaciones y Agencias Vtas.",
+    "description": "Gastos Promociones y Publicidad Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50630,
+    "parent_id": 50400,
+    "code": "5.2.1.1.23",
+    "name": "Combustible Vtas.",
+    "description": "Gastos Combustibles Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50640,
+    "parent_id": 50400,
+    "code": "5.2.1.1.24",
+    "name": "Lubricantes Vtas.",
+    "description": "Gastos Lubricantes Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50650,
+    "parent_id": 50400,
+    "code": "5.2.1.1.25",
+    "name": "Seguros Vtas.",
+    "description": "Gastos Seguros y Reaseguros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50660,
+    "parent_id": 50400,
+    "code": "5.2.1.1.26",
+    "name": "Movilización y Transporte Vtas.",
+    "description": "Gastos Transporte Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50670,
+    "parent_id": 50400,
+    "code": "5.2.1.1.27",
+    "name": "Guías de Transportes Vtas.",
+    "description": "Gastos Transporte Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50680,
+    "parent_id": 50400,
+    "code": "5.2.1.1.28",
+    "name": "Fletes Vtas.",
+    "description": "Gastos Transporte Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50690,
+    "parent_id": 50400,
+    "code": "5.2.1.1.29",
+    "name": "Gastos de Gestión Vtas.",
+    "description": "Gastos de Gestión Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50700,
+    "parent_id": 50400,
+    "code": "5.2.1.1.30",
+    "name": "Viajes Vtas.",
+    "description": "Gastos de Viajes Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50710,
+    "parent_id": 50400,
+    "code": "5.2.1.1.31",
+    "name": "Viajes al Exterior Vtas.",
+    "description": "Gastos de Viajes Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50720,
+    "parent_id": 50400,
+    "code": "5.2.1.1.32",
+    "name": "Pasajes Aereos Vtas.",
+    "description": "Gastos de Viajes Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50730,
+    "parent_id": 50400,
+    "code": "5.2.1.1.33",
+    "name": "Energía Eléctrica Vtas.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50740,
+    "parent_id": 50400,
+    "code": "5.2.1.1.34",
+    "name": "Teléfonos Convencionales Vtas.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50750,
+    "parent_id": 50400,
+    "code": "5.2.1.1.35",
+    "name": "Celulares Vtas.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50760,
+    "parent_id": 50400,
+    "code": "5.2.1.1.36",
+    "name": "Internet Vtas.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50770,
+    "parent_id": 50400,
+    "code": "5.2.1.1.37",
+    "name": "Agua Vtas.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50780,
+    "parent_id": 50400,
+    "code": "5.2.1.1.38",
+    "name": "Televisión Pagada Vtas.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50790,
+    "parent_id": 50400,
+    "code": "5.2.1.1.39",
+    "name": "Gastos Notariales Vtas.",
+    "description": "Gastos Notarios y Registradores de la Propiedad Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50800,
+    "parent_id": 50400,
+    "code": "5.2.1.1.40",
+    "name": "Gastos de Registro Mercantil Vtas.",
+    "description": "Gastos Notarios y Registradores de la Propiedad Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50810,
+    "parent_id": 50400,
+    "code": "5.2.1.1.41",
+    "name": "Impuesto a los Consumos Especiales Vtas.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50820,
+    "parent_id": 50400,
+    "code": "5.2.1.1.42",
+    "name": "Impuesto a Consumos Vtas.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50830,
+    "parent_id": 50400,
+    "code": "5.2.1.1.43",
+    "name": "Tasas y Contribuciones Vtas.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50840,
+    "parent_id": 50400,
+    "code": "5.2.1.1.44",
+    "name": "Contribuciones a Superintendencia de Compañías Vtas.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50850,
+    "parent_id": 50400,
+    "code": "5.2.1.1.45",
+    "name": "IVA Gasto Vtas.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50860,
+    "parent_id": 50400,
+    "code": "5.2.1.1.46",
+    "name": "Depreciaciones Propiedades Planta y Equipos Vtas.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50870,
+    "parent_id": 50400,
+    "code": "5.2.1.1.47",
+    "name": "Depreciaciones de Inversiones Vtas.",
+    "description": "Gastos por Depreciación Propiedades de Inversión Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50880,
+    "parent_id": 50400,
+    "code": "5.2.1.1.48",
+    "name": "Amortizaciones Intangibles Vtas.",
+    "description": "Gastos por Amortizaciones Intangibles Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50890,
+    "parent_id": 50400,
+    "code": "5.2.1.1.49",
+    "name": "Amortizaciones Otros Activos Vtas.",
+    "description": "Gastos por Amortizaciones Otros Activos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50900,
+    "parent_id": 50400,
+    "code": "5.2.1.1.50",
+    "name": "Gastos por Deterioro Propiedades Planta y Equipos Vtas",
+    "description": "Gastos por Deterioro Propiedades, Plantas y Equipos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50910,
+    "parent_id": 50400,
+    "code": "5.2.1.1.51",
+    "name": "Gastos de Deterioro Inventario Vtas",
+    "description": "Gastos por Deterioro Inventario Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50920,
+    "parent_id": 50400,
+    "code": "5.2.1.1.52",
+    "name": "Gastos por Deterioro Instrumentos Financieros Vtas",
+    "description": "Gastos por Deterioro Instrumentos Financieros Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50930,
+    "parent_id": 50400,
+    "code": "5.2.1.1.53",
+    "name": "Gastos por Deterioro Intangibles Vtas.",
+    "description": "Gastos por Deterioro Intangibles Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50940,
+    "parent_id": 50400,
+    "code": "5.2.1.1.54",
+    "name": "Gastos por Deterioro Cuentas por Cobrar Vtas",
+    "description": "Gastos por Deterioro Cuentas por Cobrar Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50950,
+    "parent_id": 50400,
+    "code": "5.2.1.1.55",
+    "name": "Gastos por Deterioro Otros Activos Vtas.",
+    "description": "Gastos por Deterioro Otros Activos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50960,
+    "parent_id": 50400,
+    "code": "5.2.1.1.56",
+    "name": "Gastos Anormales Mano de Obra Vtas.",
+    "description": "Gastos Anormales Mano de Obra Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50970,
+    "parent_id": 50400,
+    "code": "5.2.1.1.57",
+    "name": "Gastos Anormales Materiales Vtas.",
+    "description": "Gastos Anormales Materiales Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50980,
+    "parent_id": 50400,
+    "code": "5.2.1.1.58",
+    "name": "Gastos Anormales Costos de Produccion Vtas",
+    "description": "Gastos Anormales Costos de Producción Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 50990,
+    "parent_id": 50400,
+    "code": "5.2.1.1.59",
+    "name": "Gastos por Restructuracion Vtas",
+    "description": "Gastos por Reestructuracion Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51000,
+    "parent_id": 50400,
+    "code": "5.2.1.1.60",
+    "name": "Gastos por Valor Neto de realizacion de Inventarios Vtas",
+    "description": "Gastos por Valor Neto de realizacion Inventario Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51010,
+    "parent_id": 50400,
+    "code": "5.2.1.1.61",
+    "name": "Asociaciones y Suscripciones Vtas.",
+    "description": "Otros Gastos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51020,
+    "parent_id": 50400,
+    "code": "5.2.1.1.62",
+    "name": "Cuotas y Afiliaciones Vtas.",
+    "description": "Otros Gastos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51030,
+    "parent_id": 50400,
+    "code": "5.2.1.1.63",
+    "name": "Gastos de Oficina Vtas",
+    "description": "Otros Gastos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51040,
+    "parent_id": 50400,
+    "code": "5.2.1.1.64",
+    "name": "Capacitación y Entrenamiento Vtas.",
+    "description": "Otros Gastos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51050,
+    "parent_id": 50400,
+    "code": "5.2.1.1.65",
+    "name": "Uniformes Vtas.",
+    "description": "Otros Gastos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51060,
+    "parent_id": 50400,
+    "code": "5.2.1.1.66",
+    "name": "Miscelaneos Vtas.",
+    "description": "Otros Gastos Vtas",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51070,
+    "parent_id": 50390,
+    "code": "5.2.1.2",
+    "name": "Administrativos",
+    "description": "",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 51080,
+    "parent_id": 51070,
+    "code": "5.2.1.2.1",
+    "name": "Sueldos Unificados Adm.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51090,
+    "parent_id": 51070,
+    "code": "5.2.1.2.2",
+    "name": "Sobretiempos Adm.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51100,
+    "parent_id": 51070,
+    "code": "5.2.1.2.3",
+    "name": "Bonos Adm.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51110,
+    "parent_id": 51070,
+    "code": "5.2.1.2.4",
+    "name": "Alimentación Adm.",
+    "description": "Sueldos, Salarios y demás Remuneraciones Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51120,
+    "parent_id": 51070,
+    "code": "5.2.1.2.5",
+    "name": "Aportes Patronales al IESS Adm.",
+    "description": "Aportes a la Seguridad Social Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51130,
+    "parent_id": 51070,
+    "code": "5.2.1.2.6",
+    "name": "Secap - Iece Adm.",
+    "description": "Aportes a la Seguridad Social Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51140,
+    "parent_id": 51070,
+    "code": "5.2.1.2.7",
+    "name": "Fondos de Reserva Adm.",
+    "description": "Aportes a la Seguridad Social Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51150,
+    "parent_id": 51070,
+    "code": "5.2.1.2.8",
+    "name": "Décimo Tercer Sueldo Adm.",
+    "description": "Beneficios Sociales e Indemnizaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51160,
+    "parent_id": 51070,
+    "code": "5.2.1.2.9",
+    "name": "Décimo Cuarto Sueldo Adm.",
+    "description": "Beneficios Sociales e Indemnizaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51170,
+    "parent_id": 51070,
+    "code": "5.2.1.2.10",
+    "name": "Vacaciones Adm.",
+    "description": "Beneficios Sociales e Indemnizaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51180,
+    "parent_id": 51070,
+    "code": "5.2.1.2.11",
+    "name": "Desahucio Adm.",
+    "description": "Beneficios Sociales e Indemnizaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51190,
+    "parent_id": 51070,
+    "code": "5.2.1.2.12",
+    "name": "Gastos Planes de Beneficios a Empleados Adm.",
+    "description": "Gastos Planes de Beneficios a Empleados Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51200,
+    "parent_id": 51070,
+    "code": "5.2.1.2.13",
+    "name": "Honorarios Profesionales Adm.",
+    "description": "Gastos Honorarios, Comisiones y Dietas a PN Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51210,
+    "parent_id": 51070,
+    "code": "5.2.1.2.14",
+    "name": "Servicios Prestados  Adm.",
+    "description": "Gastos Honorarios, Comisiones y Dietas a PN Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51220,
+    "parent_id": 51070,
+    "code": "5.2.1.2.15",
+    "name": "Gastos Remuneraciones a otros trabajadores autónomos Adm.",
+    "description": "Gastos Remuneraciones a otros trabajadores autónomos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51230,
+    "parent_id": 51070,
+    "code": "5.2.1.2.16",
+    "name": "Gastos Honorarios a extranjeros por Servicios Ocasionales Adm.",
+    "description": "Gastos Honorarios a extranjeros por Servicios Ocasionales Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51240,
+    "parent_id": 51070,
+    "code": "5.2.1.2.17",
+    "name": "Mantenimiento Varios Adm.",
+    "description": "Gastos de Mantenimiento, Repuestos y Reparaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51250,
+    "parent_id": 51070,
+    "code": "5.2.1.2.18",
+    "name": "Mantenimiento Vehículos Adm.",
+    "description": "Gastos de Mantenimiento, Repuestos y Reparaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51260,
+    "parent_id": 51070,
+    "code": "5.2.1.2.19",
+    "name": "Arriendos Adm.",
+    "description": "Gastos Arrendamiento Operativo Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51270,
+    "parent_id": 51070,
+    "code": "5.2.1.2.20",
+    "name": "Comisiones Adm.",
+    "description": "Comisiones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51280,
+    "parent_id": 51070,
+    "code": "5.2.1.2.21",
+    "name": "Publicidad y Promoción Adm.",
+    "description": "Gastos Promoción y Publicidad Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51290,
+    "parent_id": 51070,
+    "code": "5.2.1.2.22",
+    "name": "Dominio Correo",
+    "description": "Gastos Promoción y Publicidad Adm.",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51300,
+    "parent_id": 51070,
+    "code": "5.2.1.2.23",
+    "name": "Combustible Adm.",
+    "description": "Gastos Combustibles Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51310,
+    "parent_id": 51070,
+    "code": "5.2.1.2.24",
+    "name": "Equipos y suministros de oficina Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51320,
+    "parent_id": 51070,
+    "code": "5.2.1.2.25",
+    "name": "Seguros Adm.",
+    "description": "Gastos Seguros y Reaseguros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51330,
+    "parent_id": 51070,
+    "code": "5.2.1.2.26",
+    "name": "Movilización y Transporte Adm.",
+    "description": "Gastos Transporte Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51340,
+    "parent_id": 51070,
+    "code": "5.2.1.2.27",
+    "name": "Firma Electrónica Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51350,
+    "parent_id": 51070,
+    "code": "5.2.1.2.28",
+    "name": "Gastos de Representación/Aliment",
+    "description": "Gastos Transporte Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51360,
+    "parent_id": 51070,
+    "code": "5.2.1.2.29",
+    "name": "Intereses Adm.",
+    "description": "Gastos Intereses",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51370,
+    "parent_id": 51070,
+    "code": "5.2.1.2.30",
+    "name": "Gastos de Viajes Adm.",
+    "description": "Gastos de Viajes Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51380,
+    "parent_id": 51070,
+    "code": "5.2.1.2.31",
+    "name": "Gastos de Gestión Adm.",
+    "description": "Gastos de Gestión Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51390,
+    "parent_id": 51070,
+    "code": "5.2.1.2.32",
+    "name": "Pasajes Aereos Adm.",
+    "description": "Gastos de Viajes Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51400,
+    "parent_id": 51070,
+    "code": "5.2.1.2.33",
+    "name": "Energía Eléctrica Adm.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51410,
+    "parent_id": 51070,
+    "code": "5.2.1.2.34",
+    "name": "Teléfonos Convencionales Adm.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51420,
+    "parent_id": 51070,
+    "code": "5.2.1.2.35",
+    "name": "Celulares Adm.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51430,
+    "parent_id": 51070,
+    "code": "5.2.1.2.36",
+    "name": "Internet Adm.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51440,
+    "parent_id": 51070,
+    "code": "5.2.1.2.37",
+    "name": "Agua Adm.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51450,
+    "parent_id": 51070,
+    "code": "5.2.1.2.38",
+    "name": "Televisión Pagada Adm.",
+    "description": "Agua, Energia, Luz y Telecomunicaciones Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51460,
+    "parent_id": 51070,
+    "code": "5.2.1.2.39",
+    "name": "Gastos Notariales y Legales Adm.",
+    "description": "Gastos Notarios y Registradores de la Propiedad Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51470,
+    "parent_id": 51070,
+    "code": "5.2.1.2.40",
+    "name": "Gastos de Registro Mercantil Adm.",
+    "description": "Gastos Notarios y Registradores de la Propiedad Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51480,
+    "parent_id": 51070,
+    "code": "5.2.1.2.41",
+    "name": "Impuesto a los Consumos Especiales Adm.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51490,
+    "parent_id": 51070,
+    "code": "5.2.1.2.42",
+    "name": "Impuesto a los Consumos Adm.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51500,
+    "parent_id": 51070,
+    "code": "5.2.1.2.43",
+    "name": "Tasas y Contribuciones Adm.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51510,
+    "parent_id": 51070,
+    "code": "5.2.1.2.44",
+    "name": "Contribuciones a Superintendencia de Compañías Adm.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51520,
+    "parent_id": 51070,
+    "code": "5.2.1.2.45",
+    "name": "IVA Gasto Adm.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51530,
+    "parent_id": 51070,
+    "code": "5.2.1.2.46",
+    "name": "Depreciaciones Propiedades Planta y Equipos Adm.",
+    "description": "Gastos Impuestos, Contribuciones y Otros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51540,
+    "parent_id": 51070,
+    "code": "5.2.1.2.47",
+    "name": "Depreciaciones de Inversiones Adm.",
+    "description": "Gastos por Depreciación Propiedades de Inversión Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51550,
+    "parent_id": 51070,
+    "code": "5.2.1.2.48",
+    "name": "Amortizaciones Intangibles Adm.",
+    "description": "Gastos por Amortizaciones Intangibles Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51560,
+    "parent_id": 51070,
+    "code": "5.2.1.2.49",
+    "name": "Amortizaciones Otros Activos Adm.",
+    "description": "Gastos por Amortizaciones Otros Activos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51570,
+    "parent_id": 51070,
+    "code": "5.2.1.2.50",
+    "name": "Gastos por Deterioro Propiedades Planta y Equipos Adm.",
+    "description": "Gastos por Deterioro Propiedades, Plantas y Equipos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51580,
+    "parent_id": 51070,
+    "code": "5.2.1.2.51",
+    "name": "Gastos de Deterioro Inventario Adm.",
+    "description": "Gastos por Deterioro Inventario Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51590,
+    "parent_id": 51070,
+    "code": "5.2.1.2.52",
+    "name": "Gastos por Deterioro Instrumentos Financieros Adm.",
+    "description": "Gastos por Deterioro Instrumentos Financieros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51600,
+    "parent_id": 51070,
+    "code": "5.2.1.2.53",
+    "name": "Gastos por Deterioro Instrumentos Financieros Adm.",
+    "description": "Gastos por Deterioro Instrumentos Financieros Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51610,
+    "parent_id": 51070,
+    "code": "5.2.1.2.54",
+    "name": "Gastos por Deterioro Cuentas por Cobrar Adm.",
+    "description": "Gastos por Deterioro Cuentas por Cobrar Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51620,
+    "parent_id": 51070,
+    "code": "5.2.1.2.55",
+    "name": "Gastos por Deterioro Otros Activos Adm.",
+    "description": "Gastos por Deterioro Otros Activos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51630,
+    "parent_id": 51070,
+    "code": "5.2.1.2.56",
+    "name": "Gastos Anormales Mano de Obra Adm.",
+    "description": "Gastos Anormales Mano de Obra Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51640,
+    "parent_id": 51070,
+    "code": "5.2.1.2.57",
+    "name": "Gastos Anormales Materiales Adm.",
+    "description": "Gastos Anormales Materiales Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51650,
+    "parent_id": 51070,
+    "code": "5.2.1.2.58",
+    "name": "Gastos Anormales Costos de Producción Adm.",
+    "description": "Gastos Anormales Costos de Producción Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51660,
+    "parent_id": 51070,
+    "code": "5.2.1.2.59",
+    "name": "Gastos por Restructuracion Adm.",
+    "description": "Gastos por Reestructuracion Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51670,
+    "parent_id": 51070,
+    "code": "5.2.1.2.60",
+    "name": "Gastos por Valor Neto de realizacion de Inventarios Adm.",
+    "description": "Gastos por Valor Neto de realizacion Inventario Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51680,
+    "parent_id": 51070,
+    "code": "5.2.1.2.61",
+    "name": "Asociaciones y Suscripciones Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51690,
+    "parent_id": 51070,
+    "code": "5.2.1.2.62",
+    "name": "Cuotas y Afiliaciones Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51700,
+    "parent_id": 51070,
+    "code": "5.2.1.2.63",
+    "name": "Gastos de Oficina Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51710,
+    "parent_id": 51070,
+    "code": "5.2.1.2.64",
+    "name": "Capacitación y Entrenamiento Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51720,
+    "parent_id": 51070,
+    "code": "5.2.1.2.65",
+    "name": "Uniformes Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51730,
+    "parent_id": 51070,
+    "code": "5.2.1.2.66",
+    "name": "Miscelaneos Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51740,
+    "parent_id": 51070,
+    "code": "5.2.1.2.67",
+    "name": "Salud",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51750,
+    "parent_id": 51070,
+    "code": "5.2.1.2.68",
+    "name": "Comisariato",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51760,
+    "parent_id": 51070,
+    "code": "5.2.1.2.69",
+    "name": "Buró Crediticio",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51770,
+    "parent_id": 51070,
+    "code": "5.2.1.2.70",
+    "name": "Alícuotas Arriendos",
+    "description": "Gastos Arrendamiento Operativo Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51780,
+    "parent_id": 51070,
+    "code": "5.2.1.2.71",
+    "name": "Sistema Contable, Sotware y otros",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51790,
+    "parent_id": 51070,
+    "code": "5.2.1.2.72",
+    "name": "Gastos Varios Adm.",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51800,
+    "parent_id": 50390,
+    "code": "5.2.1.3",
+    "name": "Gastos Financieros",
+    "description": "",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 51810,
+    "parent_id": 51800,
+    "code": "5.2.1.3.1",
+    "name": "Gastos por Intereses Préstamos Bancarios",
+    "description": "Gastos Intereses",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51820,
+    "parent_id": 51800,
+    "code": "5.2.1.3.2",
+    "name": "Gastos por Comisiones Bancarias",
+    "description": "Gastos Comisiones",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51830,
+    "parent_id": 51800,
+    "code": "5.2.1.3.3",
+    "name": "Gastos de Financiamiento de Activos",
+    "description": "Gastos de Financiamiento de Activos",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51840,
+    "parent_id": 51800,
+    "code": "5.2.1.3.4",
+    "name": "Gastos Diferencia en Cambio",
+    "description": "Gastos Diferencia en Cambio",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51850,
+    "parent_id": 51800,
+    "code": "5.2.1.3.5",
+    "name": "Otros Gastos Financieros",
+    "description": "Otros Gastos Financieros",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51860,
+    "parent_id": 50380,
+    "code": "5.2.2",
+    "name": "Gastos No Operacionales",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 51870,
+    "parent_id": 51860,
+    "code": "5.2.2.1",
+    "name": "Otros Gastos",
+    "description": "",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 51880,
+    "parent_id": 51870,
+    "code": "5.2.2.1.1",
+    "name": "Perdida en Inversiones en Asociadas/Subsidiarias y otras",
+    "description": "Perdida en Inversiones en Asociadas/Subsidiarias y otras",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51890,
+    "parent_id": 51870,
+    "code": "5.2.2.1.2",
+    "name": "Intereses Tributarios",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51900,
+    "parent_id": 51870,
+    "code": "5.2.2.1.3",
+    "name": "Multas Tributarias",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51910,
+    "parent_id": 51870,
+    "code": "5.2.2.1.4",
+    "name": "Multas Superintendencia de Compañías",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51920,
+    "parent_id": 51870,
+    "code": "5.2.2.1.5",
+    "name": "Faltantes de Inventario",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51930,
+    "parent_id": 51870,
+    "code": "5.2.2.1.6",
+    "name": "Faltantes de Caja",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51940,
+    "parent_id": 51870,
+    "code": "5.2.2.1.7",
+    "name": "Comprobantes de Ventas que no cumplen requisitos legales",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51950,
+    "parent_id": 51870,
+    "code": "5.2.2.1.8",
+    "name": "Gastos de Viajes",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51960,
+    "parent_id": 51870,
+    "code": "5.2.2.1.9",
+    "name": "Gastos de Gestión",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51970,
+    "parent_id": 51870,
+    "code": "5.2.2.1.10",
+    "name": "Retenciones Asumidas",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51980,
+    "parent_id": 51870,
+    "code": "5.2.2.1.11",
+    "name": "Gastos por Cancelación de Propinas",
+    "description": "Otros Gastos No Deducibles",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 51990,
+    "parent_id": 51870,
+    "code": "5.2.2.1.12",
+    "name": "Gastos No Deducibles",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 5
+  },
+  {
+    "account_id": 52000,
+    "parent_id": 50380,
+    "code": "5.2.3",
+    "name": "Gastos de Operaciones Descontinuadas",
+    "description": "",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 52010,
+    "parent_id": 52000,
+    "code": "5.2.3.1",
+    "name": "Gastos de Operaciones Descontinuadas",
+    "description": "Gastos de Operaciones Descontinuadas",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 52020,
+    "parent_id": 50380,
+    "code": "5.2.4",
+    "name": "Gastos Impuesto Renta - 15% participacion",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 3
+  },
+  {
+    "account_id": 52030,
+    "parent_id": 52020,
+    "code": "5.2.4.1",
+    "name": "Impuesto Renta Causado",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 4
+  },
+  {
+    "account_id": 52040,
+    "parent_id": 52020,
+    "code": "5.2.4.2",
+    "name": "Participacion Empleados",
+    "description": "Otros Gastos Adm",
+    "type": "Expense",
+    "nivel": 4
+  }
+]
