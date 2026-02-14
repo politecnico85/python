@@ -1,0 +1,5711 @@
+{
+  "entity_id": "a15a7ed1-c663-4bc3-9b31-952590714917",
+  "accounts": [
+    {
+      "account_code": "1",
+      "account_name": "Activos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": null,
+      "level": 1
+    },
+    {
+      "account_code": "1.1",
+      "account_name": "Activo Corriente",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1",
+      "level": 2
+    },
+    {
+      "account_code": "1.1.1",
+      "account_name": "Efectivo y Equivalentes a Efectivo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.1.1",
+      "account_name": "Caja",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.1.2",
+      "account_name": "Caja Chica",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.1.3",
+      "account_name": "Bancos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.1.3.1",
+      "account_name": "BOLIVARIANO",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.1.3.2",
+      "account_name": "PACIFICO",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.1.3.3",
+      "account_name": "PICHINCHA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.1.3.4",
+      "account_name": "Banco Comercial de Manabi",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.1.4",
+      "account_name": "Banco dinero electrónico",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.1.5",
+      "account_name": "Transferencias Interbancarias",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2",
+      "account_name": "Activos Financieros",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.2.1",
+      "account_name": "Activos Financieros con cambios en resultados",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.2",
+      "account_name": "Activos Financieros Disponibles para la Venta",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.3",
+      "account_name": "Activos Financieros mantenidos hasta el vencimiento",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.4",
+      "account_name": "(-) Provisión por Deterioro",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.5",
+      "account_name": "Cuentas por Cobrar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.5.1",
+      "account_name": "Clientes Comerciales.",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.2",
+      "account_name": "Diprofonía",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.3",
+      "account_name": "Blumod SA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.4",
+      "account_name": "Pasdarcar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.5",
+      "account_name": "Fid Bosques los Ceibos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.6",
+      "account_name": "Corpvis",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.7",
+      "account_name": "Timec SA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.8",
+      "account_name": "Preserexas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.9",
+      "account_name": "Fid Mercantil Hotel Aereopuerto Quito",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.10",
+      "account_name": "Galostar SA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.11",
+      "account_name": "Exporcambrit SA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.12",
+      "account_name": "Cheques por Cobrar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.13",
+      "account_name": "xxxxx Antes T/c",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.14",
+      "account_name": "Clientes Comerciales Exterior",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.15",
+      "account_name": "Socios o Accionistas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.16",
+      "account_name": "Funcionarios y/o Empleados",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.17",
+      "account_name": "Compañías Relacionadas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.18",
+      "account_name": "Galápagos Organic Orgal",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.19",
+      "account_name": "Fideicomiso Torres del Jardin",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.20",
+      "account_name": "Lazzate C.Ltda",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.21",
+      "account_name": "Fideicomiso San Critobal",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.22",
+      "account_name": "Fideicomiso Hotel Aeropuerto",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.23",
+      "account_name": "Fideicomiso Mercantil Hotel Samborondon",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.24",
+      "account_name": "Pacificcam SA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.5.25",
+      "account_name": "Fidelizaciones Externas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.6",
+      "account_name": "Documentos por Cobrar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.6.1",
+      "account_name": "Clientes Comerciales (Documentos por Cobrar)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.6",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.6.2",
+      "account_name": "Socios o Accionistas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.6",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.6.3",
+      "account_name": "Funcionarios y/o Empleados",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.6",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.6.4",
+      "account_name": "Compañías Relacionadas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2.6",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.2.7",
+      "account_name": "Otras Cuentas por Cobrar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.2.8",
+      "account_name": "Provision para Cuentas Incobrables",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3",
+      "account_name": "Inventario",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.3.1",
+      "account_name": "Materia Prima",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.2",
+      "account_name": "Producto en Proceso",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.3",
+      "account_name": "Suministros o materiales a ser consumidos en el proceso de producción ",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.4",
+      "account_name": "Suministros o materiales a ser consumidos en la prestación de servicios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.5",
+      "account_name": "Productos terminados y mercadería producidos por la compañía",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.6",
+      "account_name": "Productos terminados y mercadería comprados a terceros",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.7",
+      "account_name": "Mercaderías en Transito",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.8",
+      "account_name": "Obras en Construcción",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.9",
+      "account_name": "Inventarios repuestos, herramientas y accesorios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.10",
+      "account_name": "Otros Inventarios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.11",
+      "account_name": "(-) Provisión de Inventarios por valor neto de realización",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.3.12",
+      "account_name": "(-) Provisión de Inventarios por deterioro",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.4",
+      "account_name": "Servicios y otros Pagos Anticipados",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.4.1",
+      "account_name": "Seguros",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.4.2",
+      "account_name": "Arriendos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.4.3",
+      "account_name": "Anticipo a Proveedores",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.4.4",
+      "account_name": "Otros Anticipos Entregados",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.4.5",
+      "account_name": "Buen uso del Anticipo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.4.6",
+      "account_name": "PASDASCAR .- SUELDO  JASM",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.5",
+      "account_name": "Activos por Impuestos Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.5.1",
+      "account_name": "IVA sobre Compras",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.5.1.1",
+      "account_name": "IVA sobre Compras",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.1",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2",
+      "account_name": "Retenciones del IVA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.5.2.1",
+      "account_name": "30% Bienes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.2",
+      "account_name": "70% Servicios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.3",
+      "account_name": "100% Honorarios, Arrendamientos, Personas Naturales",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.4",
+      "account_name": "100% Exportadores",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.5",
+      "account_name": "10% Bienes (Contribuyentes Especiales)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.6",
+      "account_name": "20% Servicios (Contribuyentes Especiales)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.7",
+      "account_name": "50% Servicios (Exportadores de Recursos Naturales No Renovables)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.8",
+      "account_name": "100% Empresas Públicas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.9",
+      "account_name": "100% Liquidación de Compra de Bienes y Servicios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.10",
+      "account_name": "Retención IVA 0",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.11",
+      "account_name": "100% Contribuyentes Especiales",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.2.12",
+      "account_name": "100% Operadores de turismo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.2",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3",
+      "account_name": "Retenciones en la Fuente del Impuesto a la Renta",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.5.3.1",
+      "account_name": "1% Bienes Muebles de Naturaleza Corporal",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.2",
+      "account_name": "2% Servicios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.3",
+      "account_name": "8% Honorarios, Arrendamientos, Docencia, Deportistas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.4",
+      "account_name": "25% Extranjeros No Residentes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.5",
+      "account_name": "10% Hon.Profesionales y Dietas; Arriendos,Notarios y Otros",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.6",
+      "account_name": "15% Loterías, Rifas y Similares",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.7",
+      "account_name": "Otras Retenciones Aplicables al Cód.343 1%",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.8",
+      "account_name": "Servicios 2.75% (Activo)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.9",
+      "account_name": "1.75% Bienes Muebles de Naturaleza Corporal",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.10",
+      "account_name": "1.75% Régimen Microempresas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.11",
+      "account_name": "Retenciones en la Fuente años anteriores",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.12",
+      "account_name": "Retenciones en la Fuente año 2019",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.13",
+      "account_name": "Retenciones en la Fuente año 2020",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.14",
+      "account_name": "Retenciones en la Fuente año 2021",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.15",
+      "account_name": "Impuesto único a ingresos provenientes de actividades agropecuarias",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.16",
+      "account_name": "Otras Autoretenciones",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.17",
+      "account_name": "Retenciones en la Fuente año 2022",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.18",
+      "account_name": "Retenciones en la Fuente año 2023",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.19",
+      "account_name": "Retenciones en la Fuente año 2024",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.3.20",
+      "account_name": "Retenciones en la Fuente año 2025",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.3",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.4",
+      "account_name": "Anticipo de Impuesto a Renta",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.5.4.1",
+      "account_name": "1era. Cuota Julio",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.4",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.4.2",
+      "account_name": "2da. Cuota Septiembre",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.4",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.5",
+      "account_name": "Crédito Tributario",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.5.5.1",
+      "account_name": "Crédito Tributario IVA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.5.5.2",
+      "account_name": "Crédito Tributario RENTA",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.5.5",
+      "level": 5
+    },
+    {
+      "account_code": "1.1.6",
+      "account_name": "Activos No Corrientes Mantenidos para la Venta y Op. desc.",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.7",
+      "account_name": "Cuentas por Cobrar Varias",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.7.1",
+      "account_name": "Préstamo Pasdarcar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.2",
+      "account_name": "Pasdarcar Varios por Cobrar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.3",
+      "account_name": "Estrucplan Varios por Cobrar",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.4",
+      "account_name": "Estrucplan Préstamos Activo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.5",
+      "account_name": "Fideicomiso Hotel San Cristobal (Diprofonia)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.6",
+      "account_name": "Diprofonía Préstamo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.7",
+      "account_name": "Juan Carlos Santos Oberti (otros)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.7.8",
+      "account_name": "Tarjeta de crédito (Cobro)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.8",
+      "account_name": "Otros Activos Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.9",
+      "account_name": "FIDEICOMISO HOTEL AEROPUERTO",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.10",
+      "account_name": "Estrucplan Rend.Pagados Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.10.1",
+      "account_name": "Clinica Rendon/Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.10",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.10.2",
+      "account_name": "Notaría FH Samborondon",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.10",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.10.3",
+      "account_name": "BanEcuador Probimanta/Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.10",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.10.4",
+      "account_name": "Holiday Inn Sto.Domingo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.10",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.11",
+      "account_name": "Pasdarcar Rend. Pagados Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.11.1",
+      "account_name": "Vinicio Aray/Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.11",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.11.2",
+      "account_name": "Monica Molina/Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.11",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.11.3",
+      "account_name": "Hip. Faray/Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.11",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.11.4",
+      "account_name": "Enext FHSC/Pagaré",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.11",
+      "level": 4
+    },
+    {
+      "account_code": "1.1.12",
+      "account_name": "Rendimientos Financieros (Activo)",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.13",
+      "account_name": "Anticipo a Empleados",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.1",
+      "level": 3
+    },
+    {
+      "account_code": "1.1.13.1",
+      "account_name": "Joseph Sosa",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "1.2",
+      "account_name": "Activos No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1",
+      "level": 2
+    },
+    {
+      "account_code": "1.2.1",
+      "account_name": "Propiedad, Planta y Equipos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.1.1",
+      "account_name": "Terrenos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.2",
+      "account_name": "Edificios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.3",
+      "account_name": "Construcciones en Curso ",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.4",
+      "account_name": "Instalaciones ",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.5",
+      "account_name": "Muebles y Enseres",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.6",
+      "account_name": "Maquinarias y Equipos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.7",
+      "account_name": "Equipos de Computación",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.8",
+      "account_name": "Vehículos, equipos de transporte y equipo caminero móvil",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.9",
+      "account_name": "Otras Propiedades, Planta y Equipo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.10",
+      "account_name": "Repuestos y Herramientas",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.11",
+      "account_name": "(-) Depreciación Acumulada Propiedades, Planta y Equipo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.12",
+      "account_name": "(-) Depreciación Equipos de Cómputo",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.13",
+      "account_name": "Activos de Exploración y Explotación ",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.1.14",
+      "account_name": "Naves, Aeronaves, Barcazas y Similares",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.2",
+      "account_name": "Propiedades de Inversion",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.2.1",
+      "account_name": "Terrenos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.2.2",
+      "account_name": "Edificios",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.2.3",
+      "account_name": "(-) Depreciación Acumulada de Propiedades de Inversión",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.2.4",
+      "account_name": "(-) Deterioro Acumulado de Propiedades de Inversión",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.3",
+      "account_name": "Activos Biológicos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.3.1",
+      "account_name": "Animales Vivos en Crecimiento",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.3.2",
+      "account_name": "Animales Vivos en Producción",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.3.3",
+      "account_name": "(-) Depreciación Activos Biológicos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.3.4",
+      "account_name": "(-) Deterioro Activos Biológicos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.4",
+      "account_name": "Intangibles",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.4.1",
+      "account_name": "Plusvalías",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.4.2",
+      "account_name": "Marcas, Patentes, Derechos de Llave, Cuotas Patrimoniales",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.4.3",
+      "account_name": "Activos de Exploración y Explotación",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.4.4",
+      "account_name": "(-) Amortización Acumulada de Activos Intangibles",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.4.5",
+      "account_name": "(-) Deterioro Acumulado de Activos Intangibles",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.4.6",
+      "account_name": "Otros Activos Intangibles",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.5",
+      "account_name": "Activos por Impuestos Diferidos",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.6",
+      "account_name": "Activos Financieros No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.6.1",
+      "account_name": "Activos Financieros mantenidos hasta el Vencimiento No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.6",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.6.2",
+      "account_name": "(-) Deterioro de Activos Financieros hasta el Vencimiento No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.6",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.6.3",
+      "account_name": "Documentos y Cuentas por Cobrar No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.6",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.6.4",
+      "account_name": "(-) Cuentas Incobrables de Activos Financieros No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2.6",
+      "level": 4
+    },
+    {
+      "account_code": "1.2.7",
+      "account_name": "Otros Activos No Corrientes",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "1.2.8",
+      "account_name": "OTRAS CUENTAS POR COBRAR DE ORDEN",
+      "category": "ASSET",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "1.2",
+      "level": 3
+    },
+    {
+      "account_code": "2",
+      "account_name": "Pasivos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": null,
+      "level": 1
+    },
+    {
+      "account_code": "2.1",
+      "account_name": "Pasivo Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2",
+      "level": 2
+    },
+    {
+      "account_code": "2.1.1",
+      "account_name": "Pasivos Financieros con Cambios en Resultados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.2",
+      "account_name": "Pasivos por Contratos de Arrendamientos Financieros",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.3",
+      "account_name": "Cuentas y Documentos por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.3.1",
+      "account_name": "Cuentas por Pagar Proveedores",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.3.1.1",
+      "account_name": "Proveedores varios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.2",
+      "account_name": "Proveedores Exterior",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.3",
+      "account_name": "Pasdarcar Otros Prestamos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.4",
+      "account_name": "Directv",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.5",
+      "account_name": "Telconet",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.6",
+      "account_name": "Conecel",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.7",
+      "account_name": "Zúkalo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.8",
+      "account_name": "Equifax",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.9",
+      "account_name": "EcuaCTI Cia. Ltda.",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.10",
+      "account_name": "Cnel",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.11",
+      "account_name": "Plaza Navas Pablo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.12",
+      "account_name": "Luis Procel",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.13",
+      "account_name": "Lanuzzelli Granja Aldo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.14",
+      "account_name": "Viviana Torres",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.15",
+      "account_name": "Cnt",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.16",
+      "account_name": "Interagua",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.17",
+      "account_name": "Jackelin Gomez",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.18",
+      "account_name": "Pasdarcar.- Arriendos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.19",
+      "account_name": "Juan Carlos Santos Oberti (Fact)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.20",
+      "account_name": "Mario Vera",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.21",
+      "account_name": "Ecuacable",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.22",
+      "account_name": "Ulpo Carangui Luis Enrique",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.23",
+      "account_name": "Isabel Piedra",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.24",
+      "account_name": "Rebeca Pérez",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.25",
+      "account_name": "El Rosado",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.1.26",
+      "account_name": "Plastiglobal SA",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.2",
+      "account_name": "Documentos por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.3.2.1",
+      "account_name": "Documentos por Pagar Proveedores",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.3.2.2",
+      "account_name": "Documentos por Pagar Proveedores Exterior",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.3.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4",
+      "account_name": "Obligaciones Con Instituciones Financieras",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.4.1",
+      "account_name": "Obligaciones con Instituciones Financieras Locales",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.4.2",
+      "account_name": "Obligaciones con Instituciones Financieras Locales1",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.4.2.1",
+      "account_name": "Préstamo Banco Comercial de Manabí Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3",
+      "account_name": "Tarjeta de crédito (Pago)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.4.3.1",
+      "account_name": "Pichincha T/C Mastercad",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.2",
+      "account_name": "Pacifico Mastercard",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.3",
+      "account_name": "Titanium",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.4",
+      "account_name": "Diners Club",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.5",
+      "account_name": "Pichincha T/C JCSM",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.6",
+      "account_name": "Visa Austro T/C JCSM",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.7",
+      "account_name": "VISA (SRI)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.3.8",
+      "account_name": "Pichincha Mastercard Iess",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.4.4",
+      "account_name": "Obligaciones Temportales por Sobregiro",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.4.5",
+      "account_name": "Obligaciones con Instituciones Financieras del Exterior",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.5",
+      "account_name": "Provisiones",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.5.1",
+      "account_name": "Provisiones Locales",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.5.2",
+      "account_name": "Provisiones del Exterior",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.6",
+      "account_name": "Porcion Corriente de Obligaciones Emitidas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.7",
+      "account_name": "Otras Obligaciones Corrientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.7.1",
+      "account_name": "Retenciones del I.E.S.S.",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.1.1",
+      "account_name": "xxxx 9.45%",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.1.2",
+      "account_name": "xxxx Pq",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.1.3",
+      "account_name": "Prestamos Hipotecarios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2",
+      "account_name": "Retenciones en la Fuente de Impuestos a la Renta",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.2.1",
+      "account_name": "1% Bienes Muebles de Naturaleza Corporal",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.2",
+      "account_name": "2% Servicios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.3",
+      "account_name": "8% Honorarios, Arrendamientos, Docencia, Deportistas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.4",
+      "account_name": "25% Extranjeros No Residentes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.5",
+      "account_name": "10% Hon.Profesionales y Dietas; Arriendos,Notarios y Otros",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.6",
+      "account_name": "15% Loterías, Rifas y Similares",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.7",
+      "account_name": "Otras Retenciones Aplicables al Cód. 343",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.8",
+      "account_name": "2.75% Servicios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.9",
+      "account_name": "1.75% Bienes Muebles de Naturaleza Corporal",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.10",
+      "account_name": "1.75% Régimen Microempresas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.11",
+      "account_name": "Retenciones Empleados Relac Depend",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.12",
+      "account_name": "Impuesto único a ingresos provenientes de actividades agropecuarias",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.13",
+      "account_name": "Retenciones Varias por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.14",
+      "account_name": "3% Servicios profesionales prestados por sociedades residentes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.2.15",
+      "account_name": "1% Seguros y reaseguros (primas y cesiones)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3",
+      "account_name": "Retenciones del Impuesto al Valor Agregado",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.3.1",
+      "account_name": "30% Bienes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.2",
+      "account_name": "70% Servicios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.3",
+      "account_name": "100% Honorarios, Arrendamientos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.4",
+      "account_name": "100% Exportadores",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.5",
+      "account_name": "10% Bienes (Contribuyentes Especiales)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.6",
+      "account_name": "20% Servicios (Contribuyentes Especiales)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.7",
+      "account_name": "50% Servicios (Exportadores de Recursos Naturales No Renovables)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.8",
+      "account_name": "100% Empresas Públicas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.9",
+      "account_name": "100% Liquidación de Compra de Bienes y Servicios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.10",
+      "account_name": "100% Contribuyentes Especiales",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.3.11",
+      "account_name": "100% Operadores de turismo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.3",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.4",
+      "account_name": "IVA Sobre Ventas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.4.1",
+      "account_name": "IVA sobre Ventas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.4",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.4.2",
+      "account_name": "Iva por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.4",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5",
+      "account_name": "Impuestos por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.5.1",
+      "account_name": "Impuesto a la Renta Cía.",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5.2",
+      "account_name": "Impuesto a la Junta de Beneficiencia",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5.3",
+      "account_name": "Impuesto a los Activos Totales",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5.4",
+      "account_name": "Impuestos a la Universidad de Guayaquil",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5.5",
+      "account_name": "Impuestos Prediales",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5.6",
+      "account_name": "Impuesto a los Consumos Especiales",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.5.7",
+      "account_name": "Iva al Crédito",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.5",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6",
+      "account_name": "Beneficios Sociales por Pagar e Iess",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.6.1",
+      "account_name": "Décimo Tercer Sueldo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.2",
+      "account_name": "Décimo Cuarto Sueldo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.3",
+      "account_name": "Vacaciones",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.4",
+      "account_name": "Aportes Patronales y Pers. - Iece Secap I.E.S.S.",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.5",
+      "account_name": "1% Secap - Iece",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.6",
+      "account_name": "Fondos de Reservas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.7",
+      "account_name": "Provisión de Jubilación Patronal",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.8",
+      "account_name": "Provisión por Desahucio",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.9",
+      "account_name": "Otros Beneficios por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.10",
+      "account_name": "9.45% Aportes Individuales Iess",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.11",
+      "account_name": "Prestamos Quirografarios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.6.12",
+      "account_name": "Prestamos Hipotecarios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.6",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7",
+      "account_name": "Nominas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.7.1",
+      "account_name": "Sueldos por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.2",
+      "account_name": "Sueldos por Pagar Jackeline Gomez",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.3",
+      "account_name": "Sueldos por Pagar Ivonne Massuh",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.4",
+      "account_name": "Sueldos por Pagar Isabela Piedra",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.5",
+      "account_name": "Sueldos por Pagar JCSM",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.6",
+      "account_name": "Sueldos por Pagar JCSO",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.7",
+      "account_name": "Sueldos por Pagar Ma.Ronquillo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.8",
+      "account_name": "Sueldos por Pagar Joseph Sosa",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.9",
+      "account_name": "Sueldos por Pagar Irene Triviño",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.10",
+      "account_name": "Sueldos por Pagar Maria Andrea Perez",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.11",
+      "account_name": "Sueldos por Pagar Juan Andres Santos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.12",
+      "account_name": "Sueldos por Pagar Cristhel Benites",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.7.13",
+      "account_name": "Sueldos por Pagar Catherine Herdoiza",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.7",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.8",
+      "account_name": "Participación de Trabajadores",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.7.8.1",
+      "account_name": "10% Trabajadores en General",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.8",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.8.2",
+      "account_name": "5% Cargas Familiares",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.8",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.8.3",
+      "account_name": "Participación Trabajadores por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7.8",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.7.9",
+      "account_name": "Dividendos por Pagar a Socios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8",
+      "account_name": "Cuentas por Pagar Diversas/Relacionadas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.8.1",
+      "account_name": "Cuenta por Pagar Socios o Accionistas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8.1.1",
+      "account_name": "Juan Carlos Santos O. (Socio)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.8.1.2",
+      "account_name": "Cuentas por Pagar Juan Carlos Santos O.",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.1.8.2",
+      "account_name": "Cuentas por Pagar Funcionarios y/o Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8.3",
+      "account_name": "Cuentas por Pagar Compañías Relacionadas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8.4",
+      "account_name": "Cuentas por Pagar Compañías Relacionadas del Exterior",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8.5",
+      "account_name": "Documentos por Pagar Funcionarios y/o Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8.6",
+      "account_name": "Documentos por Pagar Compañías Relacionadas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.8.7",
+      "account_name": "Cuentas por Pagar Funcionarios y/o Empleados (10% Servicio)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.9",
+      "account_name": "Otros Pasivos Financieros",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.10",
+      "account_name": "Anticipos de Clientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.11",
+      "account_name": "Pasivos directamente relacionados con los Activos No Corrientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.12",
+      "account_name": "Porción Corriente de Provisiones por Beneficios a Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.12.1",
+      "account_name": "Jubilación Patronal",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.12",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.12.2",
+      "account_name": "Otros Beneficios a largo Plazo para los Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.12",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13",
+      "account_name": "Otros Pasivos Corrientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.13.1",
+      "account_name": "Estrucplan Préstamos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.2",
+      "account_name": "Pasdarcar Préstamo",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.3",
+      "account_name": "Estrucplan Varios por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.4",
+      "account_name": "Pasdarcar Varios por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.5",
+      "account_name": "Rebeca Pérez - Préstamos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.6",
+      "account_name": "Construcciones KKlaere",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.7",
+      "account_name": "Fid Mercantil Hotel Aereopuerto Quito",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.8",
+      "account_name": "Isabela Piedra compras extranjero x pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.9",
+      "account_name": "Laptop JGomez",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.10",
+      "account_name": "Laptop Jasm",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.11",
+      "account_name": "Renovación Smartsheet",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.12",
+      "account_name": "Bonos Navideños",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.13",
+      "account_name": "Prestamo Pasdarcar (Timec-Adriana-Induchan)",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.14",
+      "account_name": "Pasdarcar Jose Juez- Inmocost",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.15",
+      "account_name": "Prestamo Pasdarcar Ecuactic",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.16",
+      "account_name": "Otras Cuentas por Pagar Jackelin Gómez",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.13.17",
+      "account_name": "Otras Cuentas por Pagar EC. B. LEON",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.13",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.14",
+      "account_name": "Rendimientos Cobrados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.1.14.1",
+      "account_name": "Rendimientos Varios",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1.14",
+      "level": 4
+    },
+    {
+      "account_code": "2.1.15",
+      "account_name": "OTRAS CUENTAS DE ORDEN",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.1",
+      "level": 3
+    },
+    {
+      "account_code": "2.2",
+      "account_name": "Pasivo No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2",
+      "level": 2
+    },
+    {
+      "account_code": "2.2.1",
+      "account_name": "Pasivos por Contratos de Arrendamiento Financiero",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.2",
+      "account_name": "Cuentas y Documentos por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.2.1",
+      "account_name": "Cuentas por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.2.1.1",
+      "account_name": "Proveedores No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.2.2.1.2",
+      "account_name": "Proveedores Exterior No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.2.2.2",
+      "account_name": "Documentos por Pagar",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.2.2.1",
+      "account_name": "Documento por Pagar Proveedores No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.2.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.2.2.2.2",
+      "account_name": "Documentos por Pagar Proveedores Exterior No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.2.2",
+      "level": 5
+    },
+    {
+      "account_code": "2.2.3",
+      "account_name": "Obligaciones con Instituciones Financieras",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.3.1",
+      "account_name": "Obligaciones con Instituciones Financieras Locales No Corrientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.3.1.1",
+      "account_name": "Préstamo Banco de Manabí",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.3.1",
+      "level": 5
+    },
+    {
+      "account_code": "2.2.3.2",
+      "account_name": "Obligaciones con Instituciones Financieras del Exterior No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.4",
+      "account_name": "Cuenta por Pagar Diversas/Relacionadas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.4.1",
+      "account_name": "Cuenta por Pagar Socios o Accionistas No Corrientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.4.2",
+      "account_name": "Cuenta por Pagar Funcionarios y/o Empleados No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.4.3",
+      "account_name": "Cuenta por Pagar Compañias Relacionadas No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.4.4",
+      "account_name": "Cuenta por Pagar Compañías Relacionadas del Exterior No Corriente",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.5",
+      "account_name": "Obligaciones Emitidas",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.6",
+      "account_name": "Anticipos de Clientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.7",
+      "account_name": "Provisiones por Beneficios a Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.7.1",
+      "account_name": "Jubilación Patronal",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.7.2",
+      "account_name": "Otros Beneficios No Corrientes Para los Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.7.3",
+      "account_name": "Liquidacion de Haberes Empleados",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.7",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.8",
+      "account_name": "Pasivo Diferido",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.2.8.1",
+      "account_name": "Ingresos Diferidos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.8.2",
+      "account_name": "Pasivos por Impuestos Diferidos",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2.8",
+      "level": 4
+    },
+    {
+      "account_code": "2.2.9",
+      "account_name": "Otros Pasivos No Corrientes",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2.2",
+      "level": 3
+    },
+    {
+      "account_code": "2.3",
+      "account_name": "CUENTAS POR PAGAR",
+      "category": "LIABILITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "2",
+      "level": 2
+    },
+    {
+      "account_code": "3",
+      "account_name": "Patrimonio",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": null,
+      "level": 1
+    },
+    {
+      "account_code": "3.1",
+      "account_name": "Patrimonio Atribuible a Propietarios",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3",
+      "level": 2
+    },
+    {
+      "account_code": "3.1.1",
+      "account_name": "Capital Social",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.1.1",
+      "account_name": "Capital Social suscrito o pagado",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.1.2",
+      "account_name": "(-) Capital suscrito no pagado, acciones en tesorería",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.2",
+      "account_name": "Aportes de Socios o Accionistas para Futura Capitalización ",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.3",
+      "account_name": "Prima por Emisión Primaria de Acciones",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.4",
+      "account_name": "Reservas",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.4.1",
+      "account_name": "Reserva Legal",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.4.2",
+      "account_name": "Reserva Facultativa y Estatutaria",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.4.3",
+      "account_name": "Reserva de Capital",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.5",
+      "account_name": "Otros Resultados Integrales",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.5.1",
+      "account_name": "Superávit por Valuación de Activos Financieros",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.5.2",
+      "account_name": "Superávit por Revaluación de Propiedad, Plantas y Equipos",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.5.3",
+      "account_name": "Superávit por Valuación de Activos Intagibles",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.5.4",
+      "account_name": "Otros Superávit por Revaluación",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.5",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.6",
+      "account_name": "Resultados Acumulados",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.6.1",
+      "account_name": "Resultados Acumulados",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.6",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.6.2",
+      "account_name": "Resultados provenientes de la adopción por 1era vez del las NIIF",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.6",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.6.3",
+      "account_name": "Perdida Año Anterior",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.6",
+      "level": 4
+    },
+    {
+      "account_code": "3.1.7",
+      "account_name": "Resultado del Ejercicio",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3.1",
+      "level": 3
+    },
+    {
+      "account_code": "3.1.7.1",
+      "account_name": "Resultado del Ejercicio",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "3.2",
+      "account_name": "Participación No Controladas",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "3",
+      "level": 2
+    },
+    {
+      "account_code": "3.2.1",
+      "account_name": "Participación No Controladas",
+      "category": "EQUITY",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "3.2",
+      "level": 3
+    },
+    {
+      "account_code": "4",
+      "account_name": "Ingresos",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": null,
+      "level": 1
+    },
+    {
+      "account_code": "4.1",
+      "account_name": "Ingresos de Actividades Ordinarias",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "4",
+      "level": 2
+    },
+    {
+      "account_code": "4.1.1",
+      "account_name": "Venta de Bienes Varios",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.2",
+      "account_name": "Prestación de Servicios (Ingresos)",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.3",
+      "account_name": "Devoluciones sobre Ventas",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.4",
+      "account_name": "Rebaja y/o Descuentos sobre Ventas",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.5",
+      "account_name": "Ingresos por Regalías Cuotas y Comisiones",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.6",
+      "account_name": "Ingresos por Contratos de Intermediación",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.7",
+      "account_name": "Ingresos por Asesoria Financiera",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.7.1",
+      "account_name": "Pasdarcar",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "4.1.7.2",
+      "account_name": "FIDEICOMISO MERCANTIL HOTEL AEROPUERTO QUITO",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "4.1.7.3",
+      "account_name": "FIDEICOMISO HOTEL AEROPUERTO",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "4.1.7.4",
+      "account_name": "FIDEICOMISO BOSQUES DE LOS CEIBOS",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "4.1.7.5",
+      "account_name": "DIPROFONIA SA",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1.7",
+      "level": 4
+    },
+    {
+      "account_code": "4.1.8",
+      "account_name": "Contratos de Construcción",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.9",
+      "account_name": "Subvenciones del Gobierno",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.10",
+      "account_name": "Ingresos por Dividendos",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.1.11",
+      "account_name": "Otros Ingresos de Actividades Ordinarias",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.1",
+      "level": 3
+    },
+    {
+      "account_code": "4.2",
+      "account_name": "Otros Ingresos de Actividades Ordinarias",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "4",
+      "level": 2
+    },
+    {
+      "account_code": "4.2.1",
+      "account_name": "Fletes",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.2",
+      "level": 3
+    },
+    {
+      "account_code": "4.2.2",
+      "account_name": "Multas",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.2",
+      "level": 3
+    },
+    {
+      "account_code": "4.2.3",
+      "account_name": "Intereses",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.2",
+      "level": 3
+    },
+    {
+      "account_code": "4.2.4",
+      "account_name": "Reembolso (No Gravables)",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.2",
+      "level": 3
+    },
+    {
+      "account_code": "4.3",
+      "account_name": "Otros Ingresos Financieros",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": false,
+      "parent_code": "4",
+      "level": 2
+    },
+    {
+      "account_code": "4.3.1",
+      "account_name": "Dividendos Financieros",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.3",
+      "level": 3
+    },
+    {
+      "account_code": "4.3.2",
+      "account_name": "Intereses Financieros",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.3",
+      "level": 3
+    },
+    {
+      "account_code": "4.3.3",
+      "account_name": "Ganancia de Asociadas y Negocios Conjuntos",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.3",
+      "level": 3
+    },
+    {
+      "account_code": "4.3.4",
+      "account_name": "Valuación de Instrumentos Financieros",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.3",
+      "level": 3
+    },
+    {
+      "account_code": "4.3.5",
+      "account_name": "Otras Rentas",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4.3",
+      "level": 3
+    },
+    {
+      "account_code": "4.4",
+      "account_name": "Ingresos por Operaciones Discontinuadas",
+      "category": "REVENUE",
+      "normal_side": "CREDIT",
+      "is_postable": true,
+      "parent_code": "4",
+      "level": 2
+    },
+    {
+      "account_code": "5",
+      "account_name": "Costos y Gastos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": null,
+      "level": 1
+    },
+    {
+      "account_code": "5.1",
+      "account_name": "Costos de Venta y Producción ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5",
+      "level": 2
+    },
+    {
+      "account_code": "5.1.1",
+      "account_name": "Materiales Utilizados o Productos Vendidos ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.1",
+      "level": 3
+    },
+    {
+      "account_code": "5.1.1.1",
+      "account_name": "Bienes No Producidos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.1.2",
+      "account_name": "Bienes No Producidos Importados",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.1.3",
+      "account_name": "Materia Prima",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.1.4",
+      "account_name": "Materia Prima Importada",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.1.5",
+      "account_name": "Productos en Proceso",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.1.6",
+      "account_name": "Productos Terminados",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2",
+      "account_name": "Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.1",
+      "level": 3
+    },
+    {
+      "account_code": "5.1.2.1",
+      "account_name": "Sueldos Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.2",
+      "account_name": "Sobretiempos Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.3",
+      "account_name": "Décimo Tercer Sueldo Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.4",
+      "account_name": "Decimo Cuarto Sueldo Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.5",
+      "account_name": "Vacaciones Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.6",
+      "account_name": "Aportes Patronales al I.E.S.S. Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.7",
+      "account_name": "Secap - Iece Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.8",
+      "account_name": "Fondos de Reserva Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.2.9",
+      "account_name": "Gastos Planes de Beneficios a Empleados Mano de Obra Directa",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3",
+      "account_name": "Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.1",
+      "level": 3
+    },
+    {
+      "account_code": "5.1.3.1",
+      "account_name": "Sueldos Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.2",
+      "account_name": "Sobretiempos Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.3",
+      "account_name": "Décimo Tercer Sueldo Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.4",
+      "account_name": "Décimo Cuarto Sueldo Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.5",
+      "account_name": "Vacaciones Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.6",
+      "account_name": "Aportes Patronales al I.E.S.S. Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.7",
+      "account_name": "Secap - Iece Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.8",
+      "account_name": "Fondos de Reserva Mano de Obra Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.3.9",
+      "account_name": "Gastos Planes de Beneficios a Empleados - Indirecta",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4",
+      "account_name": "Costos Indirectos de Fabricación",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.1",
+      "level": 3
+    },
+    {
+      "account_code": "5.1.4.1",
+      "account_name": "Depreciación Propiedades, Plantas y Equipos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.2",
+      "account_name": "Depreciación de Activos Biológicos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.3",
+      "account_name": "Deterioro de Propiedad, Planta y Equipo",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.4",
+      "account_name": "Efecto valor neto de realización de Inventarios",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.5",
+      "account_name": "Gasto por Garantías en Venta de Productos o Servicios",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.6",
+      "account_name": "Mantenimiento y Reparaciones Costos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.7",
+      "account_name": "Suministros, Materiales y Repuestos Costos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.1.4.8",
+      "account_name": "Otros Costos de Producción",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.1.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.2",
+      "account_name": "Gastos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5",
+      "level": 2
+    },
+    {
+      "account_code": "5.2.1",
+      "account_name": "Gastos de Actividades Ordinarias",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2",
+      "level": 3
+    },
+    {
+      "account_code": "5.2.1.1",
+      "account_name": "Ventas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.2.1.1.1",
+      "account_name": "Sueldos Unificados Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.2",
+      "account_name": "Sobretiempos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.3",
+      "account_name": "Gratificaciones Vtas. ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.4",
+      "account_name": "Alimentación Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.5",
+      "account_name": "Aportes Patronales al IESS Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.6",
+      "account_name": "Secap - Iece Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.7",
+      "account_name": "Fondos de Reserva Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.8",
+      "account_name": "Décimo Tercer Sueldo Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.9",
+      "account_name": "Décimo Cuarto Sueldo Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.10",
+      "account_name": "Vacaciones Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.11",
+      "account_name": "Desahucio Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.12",
+      "account_name": "Gastos Planes de Beneficios a Empleados Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.13",
+      "account_name": "Honorarios Profesionales Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.14",
+      "account_name": "Servicios Contratados Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.15",
+      "account_name": "Gastos Remuneraciones a otros trabajadores autónomos Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.16",
+      "account_name": "Gastos Honorarios a extranjeros por Servicios Ocasionales Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.17",
+      "account_name": "Mantenimiento de Equipos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.18",
+      "account_name": "Reparaciones de Equipos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.19",
+      "account_name": "Arriendos Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.20",
+      "account_name": "Comisiones Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.21",
+      "account_name": "Publicidad y Promoción Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.22",
+      "account_name": "Publicaciones y Agencias Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.23",
+      "account_name": "Combustible Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.24",
+      "account_name": "Lubricantes Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.25",
+      "account_name": "Seguros Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.26",
+      "account_name": "Movilización y Transporte Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.27",
+      "account_name": "Guías de Transportes Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.28",
+      "account_name": "Fletes Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.29",
+      "account_name": "Gastos de Gestión Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.30",
+      "account_name": "Viajes Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.31",
+      "account_name": "Viajes al Exterior Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.32",
+      "account_name": "Pasajes Aereos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.33",
+      "account_name": "Energía Eléctrica Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.34",
+      "account_name": "Teléfonos Convencionales Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.35",
+      "account_name": "Celulares Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.36",
+      "account_name": "Internet Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.37",
+      "account_name": "Agua Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.38",
+      "account_name": "Televisión Pagada Vtas. ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.39",
+      "account_name": "Gastos Notariales Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.40",
+      "account_name": "Gastos de Registro Mercantil Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.41",
+      "account_name": "Impuesto a los Consumos Especiales Vtas. ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.42",
+      "account_name": "Impuesto a Consumos Vtas. ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.43",
+      "account_name": "Tasas y Contribuciones Vtas. ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.44",
+      "account_name": "Contribuciones a Superintendencia de Compañías Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.45",
+      "account_name": "IVA Gasto Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.46",
+      "account_name": "Depreciaciones Propiedades Planta y Equipos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.47",
+      "account_name": "Depreciaciones de Inversiones Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.48",
+      "account_name": "Amortizaciones Intangibles Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.49",
+      "account_name": "Amortizaciones Otros Activos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.50",
+      "account_name": "Gastos por Deterioro Propiedades Planta y Equipos Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.51",
+      "account_name": "Gastos de Deterioro Inventario Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.52",
+      "account_name": "Gastos por Deterioro Instrumentos Financieros Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.53",
+      "account_name": "Gastos por Deterioro Intangibles Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.54",
+      "account_name": "Gastos por Deterioro Cuentas por Cobrar Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.55",
+      "account_name": "Gastos por Deterioro Otros Activos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.56",
+      "account_name": "Gastos Anormales Mano de Obra Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.57",
+      "account_name": "Gastos Anormales Materiales Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.58",
+      "account_name": "Gastos Anormales Costos de Produccion Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.59",
+      "account_name": "Gastos por Restructuracion Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.60",
+      "account_name": "Gastos por Valor Neto de realizacion de Inventarios Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.61",
+      "account_name": "Asociaciones y Suscripciones Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.62",
+      "account_name": "Cuotas y Afiliaciones Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.63",
+      "account_name": "Gastos de Oficina Vtas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.64",
+      "account_name": "Capacitación y Entrenamiento Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.65",
+      "account_name": "Uniformes Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.1.66",
+      "account_name": "Miscelaneos Vtas.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2",
+      "account_name": "Administrativos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.2.1.2.1",
+      "account_name": "Sueldos Unificados Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.2",
+      "account_name": "Sobretiempos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.3",
+      "account_name": "Bonos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.4",
+      "account_name": "Alimentación Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.5",
+      "account_name": "Aportes Patronales al IESS Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.6",
+      "account_name": "Secap - Iece Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.7",
+      "account_name": "Fondos de Reserva Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.8",
+      "account_name": "Décimo Tercer Sueldo Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.9",
+      "account_name": "Décimo Cuarto Sueldo Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.10",
+      "account_name": "Vacaciones Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.11",
+      "account_name": "Desahucio Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.12",
+      "account_name": "Gastos Planes de Beneficios a Empleados Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.13",
+      "account_name": "Honorarios Profesionales Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.14",
+      "account_name": "Servicios Prestados  Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.15",
+      "account_name": "Gastos Remuneraciones a otros trabajadores autónomos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.16",
+      "account_name": "Gastos Honorarios a extranjeros por Servicios Ocasionales Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.17",
+      "account_name": "Mantenimiento Varios Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.18",
+      "account_name": "Mantenimiento Vehículos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.19",
+      "account_name": "Arriendos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.20",
+      "account_name": "Comisiones Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.21",
+      "account_name": "Publicidad y Promoción Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.22",
+      "account_name": "Dominio Correo",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.23",
+      "account_name": "Combustible Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.24",
+      "account_name": "Equipos y suministros de oficina Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.25",
+      "account_name": "Seguros Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.26",
+      "account_name": "Movilización y Transporte Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.27",
+      "account_name": "Firma Electrónica Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.28",
+      "account_name": "Gastos de Representación/Aliment",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.29",
+      "account_name": "Intereses Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.30",
+      "account_name": "Gastos de Viajes Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.31",
+      "account_name": "Gastos de Gestión Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.32",
+      "account_name": "Pasajes Aereos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.33",
+      "account_name": "Energía Eléctrica Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.34",
+      "account_name": "Teléfonos Convencionales Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.35",
+      "account_name": "Celulares Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.36",
+      "account_name": "Internet Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.37",
+      "account_name": "Agua Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.38",
+      "account_name": "Televisión Pagada Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.39",
+      "account_name": "Gastos Notariales y Legales Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.40",
+      "account_name": "Gastos de Registro Mercantil Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.41",
+      "account_name": "Impuesto a los Consumos Especiales Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.42",
+      "account_name": "Impuesto a los Consumos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.43",
+      "account_name": "Tasas y Contribuciones Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.44",
+      "account_name": "Contribuciones a Superintendencia de Compañías Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.45",
+      "account_name": "IVA Gasto Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.46",
+      "account_name": "Depreciaciones Propiedades Planta y Equipos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.47",
+      "account_name": "Depreciaciones de Inversiones Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.48",
+      "account_name": "Amortizaciones Intangibles Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.49",
+      "account_name": "Amortizaciones Otros Activos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.50",
+      "account_name": "Gastos por Deterioro Propiedades Planta y Equipos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.51",
+      "account_name": "Gastos de Deterioro Inventario Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.52",
+      "account_name": "Gastos por Deterioro Instrumentos Financieros Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.53",
+      "account_name": "Gastos por Deterioro Instrumentos Financieros Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.54",
+      "account_name": "Gastos por Deterioro Cuentas por Cobrar Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.55",
+      "account_name": "Gastos por Deterioro Otros Activos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.56",
+      "account_name": "Gastos Anormales Mano de Obra Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.57",
+      "account_name": "Gastos Anormales Materiales Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.58",
+      "account_name": "Gastos Anormales Costos de Producción Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.59",
+      "account_name": "Gastos por Restructuracion Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.60",
+      "account_name": "Gastos por Valor Neto de realizacion de Inventarios Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.61",
+      "account_name": "Asociaciones y Suscripciones Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.62",
+      "account_name": "Cuotas y Afiliaciones Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.63",
+      "account_name": "Gastos de Oficina Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.64",
+      "account_name": "Capacitación y Entrenamiento Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.65",
+      "account_name": "Uniformes Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.66",
+      "account_name": "Miscelaneos Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.67",
+      "account_name": "Salud",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.68",
+      "account_name": "Comisariato",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.69",
+      "account_name": "Buró Crediticio",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.70",
+      "account_name": "Alícuotas Arriendos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.71",
+      "account_name": "Sistema Contable, Sotware y otros",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.2.72",
+      "account_name": "Gastos Varios Adm.",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.2",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.3",
+      "account_name": "Gastos Financieros",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2.1",
+      "level": 4
+    },
+    {
+      "account_code": "5.2.1.3.1",
+      "account_name": "Gastos por Intereses Préstamos Bancarios",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.3.2",
+      "account_name": "Gastos por Comisiones Bancarias",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.3.3",
+      "account_name": "Gastos de Financiamiento de Activos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.3.4",
+      "account_name": "Gastos Diferencia en Cambio",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.1.3.5",
+      "account_name": "Otros Gastos Financieros",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.1.3",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2",
+      "account_name": "Gastos No Operacionales",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2",
+      "level": 3
+    },
+    {
+      "account_code": "5.2.2.1",
+      "account_name": "Otros Gastos",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2.2",
+      "level": 4
+    },
+    {
+      "account_code": "5.2.2.1.1",
+      "account_name": "Perdida en Inversiones en Asociadas/Subsidiarias y otras",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.2",
+      "account_name": "Intereses Tributarios",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.3",
+      "account_name": "Multas Tributarias ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.4",
+      "account_name": "Multas Superintendencia de Compañías ",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.5",
+      "account_name": "Faltantes de Inventario",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.6",
+      "account_name": "Faltantes de Caja",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.7",
+      "account_name": "Comprobantes de Ventas que no cumplen requisitos legales",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.8",
+      "account_name": "Gastos de Viajes",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.9",
+      "account_name": "Gastos de Gestión",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.10",
+      "account_name": "Retenciones Asumidas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.11",
+      "account_name": "Gastos por Cancelación de Propinas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.2.1.12",
+      "account_name": "Gastos No Deducibles",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.2.1",
+      "level": 5
+    },
+    {
+      "account_code": "5.2.3",
+      "account_name": "Gastos de Operaciones Descontinuadas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2",
+      "level": 3
+    },
+    {
+      "account_code": "5.2.3.1",
+      "account_name": "Gastos de Operaciones Descontinuadas",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.3",
+      "level": 4
+    },
+    {
+      "account_code": "5.2.4",
+      "account_name": "Gastos Impuesto Renta - 15% participacion",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": false,
+      "parent_code": "5.2",
+      "level": 3
+    },
+    {
+      "account_code": "5.2.4.1",
+      "account_name": "Impuesto Renta Causado",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.4",
+      "level": 4
+    },
+    {
+      "account_code": "5.2.4.2",
+      "account_name": "Participacion Empleados",
+      "category": "EXPENSE",
+      "normal_side": "DEBIT",
+      "is_postable": true,
+      "parent_code": "5.2.4",
+      "level": 4
+    }
+  ]
+}
