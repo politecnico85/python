@@ -2,8 +2,15 @@
 -- Catálogos y entidades
 -- =========================
 
-use prometheus
-go
+USE [prometheus]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
 
 CREATE TABLE currency (
     currency_code CHAR(3) PRIMARY KEY,      -- ISO 4217 (e.g., 'USD', 'EUR')
@@ -15,13 +22,25 @@ CREATE TABLE currency (
     updated_at DATETIME2
 );
 
+
+CREATE TABLE [dbo].[account_types](
+	[type_code] NVARCHAR(3) PRIMARY KEY CHECK (type_code IN ('AA', 'AL', 'RR', 'RE', 'GG', 'GL')) NOT NULL,
+	[category] [NVARCHAR](50) CHECK (category IN ('Asset', 'Liability', 'Revenue', 'Expense', 'Gain', 'Loss'))NOT NULL,
+	[description] [NVARCHAR](100) NULL,
+	[created_at] datetime DEFAULT CURRENT_TIMESTAMP,
+	[created_by] [NVARCHAR](100) NOT NULL,
+	[updated_at] datetime,
+	[updated_by] [NVARCHAR](100) NOT NULL
+) ON [PRIMARY]
+GO
+
 CREATE TABLE accounting_entity (
     entity_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
-    name NVARCHAR(MAX) NOT NULL,
+    name NVARCHAR(200) NOT NULL,
     base_currency CHAR(3) NOT NULL REFERENCES currency(currency_code),
     razon_social NVARCHAR(MAX),
-    ruc NVARCHAR(MAX),
-    representante_legal NVARCHAR(MAX),
+    ruc NVARCHAR(20),
+    representante_legal NVARCHAR(200),
     parent_entity_id UNIQUEIDENTIFIER REFERENCES accounting_entity(entity_id),
     timezone NVARCHAR(100) NOT NULL DEFAULT 'UTC',
     is_consolidated BIT NOT NULL DEFAULT 0,
@@ -34,7 +53,7 @@ CREATE TABLE fiscal_period (
     period_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     period_code NVARCHAR(50) NOT NULL,            -- e.g., '2025-08'
-    fiscal_year AS (CAST(SUBSTRING(period_code, 1, 4) AS INT) )PERSISTED,
+    fiscal_year AS (CAST(SUBSTRING(period_code, 1, 4) AS INT)) PERSISTED,
     start_date DATE NOT NULL,
     end_date DATE NOT NULL,
     is_closed BIT NOT NULL DEFAULT 0,
@@ -51,10 +70,12 @@ CREATE TABLE fiscal_period (
 CREATE TABLE account (
     account_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
-    account_code NVARCHAR(60) NOT NULL,            -- e.g., '1000', '1100.01'
-    account_name NVARCHAR(100) NOT NULL,
-    description NVARCHAR(150),
-    category NVARCHAR(50) NOT NULL,                 -- Change to NVARCHAR for ENUM
+    account_code NVARCHAR(50) NOT NULL,            -- e.g., '1000', '1100.01'
+    account_name NVARCHAR(200) NOT NULL,
+    description NVARCHAR(200),
+    --category NVARCHAR(50) NOT NULL,                 -- Change to NVARCHAR for ENUM
+    type_code NVARCHAR(3) REFERENCES account_types(type_code);
+	--category   NVARCHAR(3) REFERENCES account_type(type_code) NOT NULL,
     normal_side NVARCHAR(50) NOT NULL,              -- Change to NVARCHAR for ENUM
     parent_account_id UNIQUEIDENTIFIER REFERENCES account(account_id),
     is_postable BIT NOT NULL DEFAULT 1,
@@ -69,6 +90,10 @@ CREATE TABLE account (
     CHECK (account_code LIKE '[0-9]%')
 );
 
+--ALTER TABLE account ADD  type_code NVARCHAR(3) REFERENCES account_types(type_code);
+
+go
+
 -- =========================
 -- Dimensiones analíticas
 -- =========================
@@ -76,8 +101,8 @@ CREATE TABLE cost_center (
     cost_center_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     code NVARCHAR(50) NOT NULL,
-    name NVARCHAR(100) NOT NULL,
-    description NVARCHAR(150),
+    name NVARCHAR(200) NOT NULL,
+    description NVARCHAR(MAX),
     parent_id UNIQUEIDENTIFIER REFERENCES cost_center(cost_center_id),
     budget_amount DECIMAL(18, 2),
     budget_currency CHAR(3) REFERENCES currency(currency_code),
@@ -91,8 +116,8 @@ CREATE TABLE project (
     project_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     code NVARCHAR(50) NOT NULL,
-    name NVARCHAR(100) NOT NULL,
-    description NVARCHAR(150),
+    name NVARCHAR(200) NOT NULL,
+    description NVARCHAR(200),
     parent_id UNIQUEIDENTIFIER REFERENCES project(project_id),
     budget_amount DECIMAL(18, 2),
     budget_currency CHAR(3) REFERENCES currency(currency_code),
@@ -120,7 +145,7 @@ CREATE TABLE tax_code (
     tax_code_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     code NVARCHAR(50) NOT NULL,
-    name NVARCHAR(100) NOT NULL,
+    name NVARCHAR(200) NOT NULL,
     rate DECIMAL(5, 2) NOT NULL,
     account_id UNIQUEIDENTIFIER REFERENCES account(account_id),
     created_at DATETIME2 NOT NULL DEFAULT SYSDATETIME(),
@@ -132,10 +157,10 @@ CREATE TABLE tax_code (
 CREATE TABLE partner (
     partner_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
-    name NVARCHAR(100) NOT NULL,
+    name NVARCHAR(200) NOT NULL,
     type NVARCHAR(50) CHECK (type IN ('CUSTOMER', 'VENDOR', 'EMPLOYEE')),
     tax_id NVARCHAR(50),
-    address NVARCHAR(100),
+    address NVARCHAR(200),
     currency_code CHAR(3) REFERENCES currency(currency_code),
     created_at DATETIME2 NOT NULL DEFAULT SYSDATETIME(),
     updated_at DATETIME2,
@@ -146,7 +171,7 @@ CREATE TABLE product (
     product_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     code NVARCHAR(50) NOT NULL,
-    name NVARCHAR(100) NOT NULL,
+    name NVARCHAR(200) NOT NULL,
     type NVARCHAR(50) CHECK (type IN ('GOOD', 'SERVICE')),
     unit_price DECIMAL(18, 2),
     cost_account_id UNIQUEIDENTIFIER REFERENCES account(account_id),
@@ -176,7 +201,7 @@ CREATE TABLE journal_entry (
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     period_id UNIQUEIDENTIFIER NOT NULL REFERENCES fiscal_period(period_id),
     entry_date DATE NOT NULL,
-    description NVARCHAR(150),
+    description NVARCHAR(200),
     is_posted BIT NOT NULL DEFAULT 0,
     created_at DATETIME2 NOT NULL DEFAULT SYSDATETIME(),
     updated_at DATETIME2,
@@ -206,8 +231,8 @@ CREATE TABLE journal_template (
     template_id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     entity_id UNIQUEIDENTIFIER NOT NULL REFERENCES accounting_entity(entity_id),
     code NVARCHAR(50) NOT NULL,
-    name NVARCHAR(100) NOT NULL,
-    description NVARCHAR(150),
+    name NVARCHAR(200) NOT NULL,
+    description NVARCHAR(200),
     is_active BIT NOT NULL DEFAULT 1,
     created_at DATETIME2 NOT NULL DEFAULT SYSDATETIME(),
     updated_at DATETIME2,
@@ -221,7 +246,7 @@ CREATE TABLE journal_template_line (
     account_id UNIQUEIDENTIFIER REFERENCES account(account_id),
     account_category NVARCHAR(50),                 -- Change to NVARCHAR for ENUM
     normal_side NVARCHAR(50) NOT NULL,             -- Change to NVARCHAR for ENUM
-    amount_expression NVARCHAR(200) NOT NULL,
+    amount_expression NVARCHAR(MAX) NOT NULL,
     currency_code CHAR(3) REFERENCES currency(currency_code),
     cost_center_id UNIQUEIDENTIFIER REFERENCES cost_center(cost_center_id),
     project_id UNIQUEIDENTIFIER REFERENCES project(project_id),

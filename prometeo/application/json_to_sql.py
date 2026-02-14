@@ -30,7 +30,7 @@ def generate_insert_scripts(json_data, table_name, column_mapping):
                 columns_str = ", ".join(columns)
                 values_str = ", ".join(values)
                 insert_statements.append(f"INSERT INTO {table_name} ({columns_str}) VALUES ({values_str});")
-                print(insert_statements)
+                #print(insert_statements)
         return insert_statements
 
 table_name = "account"
@@ -41,7 +41,7 @@ column_mapping = {
         "code": "account_code",
         "name": "account_name",
         "description": "description",
-        "type": "type",
+        "type": "type_code",
         "nivel": "level"
     }
 
@@ -54,7 +54,7 @@ data = load_json_data(json_file_path)
 #print(data)
 scripts = generate_insert_scripts(data, table_name, column_mapping)
 
-sql_file_path = "/insert_accounts.sql"
+sql_file_path = "insert_accounts.sql"
 sql_file_path = Path(__file__).parent.joinpath("data") /sql_file_path
 with open(sql_file_path, "w") as f:
     for statement in scripts:
